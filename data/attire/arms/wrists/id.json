@@ -1,0 +1,15 @@
+{
+  "country": "id",
+  "body_part": "wrists",
+  "attires": [
+    {
+      "name": "Gelang Bahar",
+      "type": "bracelet",
+      "description": "A sturdy bracelet made from the root of the Bahar plant, believed to have protective qualities.",
+      "material": ["Bahar root"],
+      "region": ["Maluku", "Eastern Indonesia"],
+      "gender": ["male", "female"],
+      "occasion": ["daily wear"]
+    }
+  ]
+}

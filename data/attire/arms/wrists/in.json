@@ -1,0 +1,51 @@
+{
+  "country": "IN",
+  "body_part": "wrists",
+  "attires": [
+    {
+      "name": "Bangles",
+      "type": "ornament",
+      "description": "Circular ornaments worn around the wrists, often made of glass, gold, or other materials.",
+      "material": ["glass", "gold", "lac", "plastic", "silver"],
+      "region": ["Nationwide"],
+      "gender": ["female"],
+      "occasion": ["daily wear", "wedding", "festival"]
+    },
+    {
+      "name": "Kada",
+      "type": "ornament",
+      "description": "A thick metal bracelet, commonly worn by men and women, especially in Sikh culture.",
+      "material": ["steel", "silver", "gold"],
+      "region": ["Punjab", "Nationwide"],
+      "gender": ["male", "female"],
+      "occasion": ["daily wear", "religious"]
+    },
+    {
+      "name": "Chudi",
+      "type": "ornament",
+      "description": "Traditional bangles made of glass or metal, often worn in sets, popular in North India.",
+      "material": ["glass", "metal"],
+      "region": ["North India", "Nationwide" ],
+      "gender" :["female"],
+      "occasion": ["wedding", "festival", "daily wear"]
+    },
+    {
+      "name": "Rakhi",
+      "type": "sacred thread",
+      "description": "A decorative thread or bracelet tied by sisters on their brothers' wrists during Raksha Bandhan as a symbol of protection and love.",
+      "material": ["cotton", "silk", "decorative materials"],
+      "region": ["Nationwide"],
+      "gender": ["male"],
+      "occasion": ["Raksha Bandhan"]
+    },
+    {
+      "name": "Kalava (Mouli)",
+      "type": "sacred thread",
+      "description": "A saffron or red sacred thread tied on the wrist during Hindu religious ceremonies, symbolizing protection and blessings.",
+      "material": ["cotton", "saffron dye", "red dye"],
+      "region": ["Nationwide"],
+      "gender": ["male", "female"],
+      "occasion": ["religious ceremony"]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "country": "de",
+  "body_part": "upper_body",
+  "attires": [
+    {
+      "name": "Dirndl",
+      "type": "dress",
+      "description": "A traditional dress worn in Southern Germany, especially Bavaria, Austria, and South Tyrol. It consists of a bodice, blouse, full skirt, and an apron.",
+      "material": ["cotton", "linen", "silk", "velvet"],
+      "region": ["Bavaria", "Southern Germany"],
+      "gender": ["female"],
+      "occasion": ["Oktoberfest", "folk festivals", "weddings"]
+    },
+    {
+      "name": "Trachtenhemd",
+      "type": "shirt",
+      "description": "A traditional shirt, usually white or checkered, worn with Lederhosen. It often has embroidery on the front.",
+      "material": ["cotton", "linen"],
+      "region": ["Bavaria", "Southern Germany"],
+      "gender": ["male"],
+      "occasion": ["Oktoberfest", "folk festivals"]
+    },
+    {
+      "name": "Janker",
+      "type": "jacket",
+      "description": "A traditional boiled wool jacket, often with contrasting trim and horn buttons. It is a key part of Tracht.",
+      "material": ["boiled wool", "felt"],
+      "region": ["Bavaria", "Austria"],
+      "gender": ["male", "female"],
+      "occasion": ["formal traditional events", "casual wear"]
+    }
+  ]
+}

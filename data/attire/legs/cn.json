@@ -1,0 +1,33 @@
+{
+  "country": "cn",
+  "body_part": "legs",
+  "attires": [
+    {
+      "name": "Ruqun",
+      "type": "skirt",
+      "description": "A type of traditional Chinese clothing primarily for women, which consists of a blouse and a wrap-around skirt. It is a common form of Hanfu.",
+      "material": ["silk", "cotton", "brocade"],
+      "region": ["Nationwide"],
+      "gender": ["female"],
+      "occasion": ["festivals", "ceremonies", "cultural events"]
+    },
+    {
+      "name": "Kun",
+      "type": "trousers",
+      "description": "A general term for trousers in Chinese. In a traditional context, these would be loose-fitting trousers worn under a robe or with a jacket.",
+      "material": ["silk", "cotton"],
+      "region": ["Nationwide"],
+      "gender": ["male", "female"],
+      "occasion": ["with Hanfu", "daily wear"]
+    },
+    {
+      "name": "Lotus Shoes",
+      "type": "footwear",
+      "description": "Small, delicately embroidered shoes for women with bound feet. This practice is no longer followed, but the shoes are a significant part of Chinese history.",
+      "material": ["silk", "cotton", "embroidery thread"],
+      "region": ["Historically Nationwide"],
+      "gender": ["female"],
+      "occasion": ["historical attire"]
+    }
+  ]
+}

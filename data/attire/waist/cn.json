@@ -1,0 +1,15 @@
+{
+  "country": "cn",
+  "body_part": "waist",
+  "attires": [
+    {
+      "name": "Yudai",
+      "type": "belt",
+      "description": "A type of decorative belt or girdle worn with traditional Chinese clothing, especially Hanfu. It can be made of various materials and often has intricate designs.",
+      "material": ["silk", "leather", "jade", "metal"],
+      "region": ["Nationwide"],
+      "gender": ["male", "female"],
+      "occasion": ["with Hanfu", "formal events"]
+    }
+  ]
+}

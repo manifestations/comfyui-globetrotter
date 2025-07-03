@@ -1,0 +1,33 @@
+{
+  "country": "jp",
+  "body_part": "upper_body",
+  "attires": [
+    {
+      "name": "Kimono",
+      "type": "robe",
+      "description": "A traditional Japanese garment, and the national dress of Japan. The kimono is a T-shaped, wrapped-front garment with square sleeves and a rectangular body, and is worn left side over right.",
+      "material": ["silk", "cotton", "linen", "polyester"],
+      "region": ["Nationwide"],
+      "gender": ["female", "male"],
+      "occasion": ["weddings", "funerals", "tea ceremonies", "festivals"]
+    },
+    {
+      "name": "Yukata",
+      "type": "robe",
+      "description": "A casual version of the kimono. It is a robe usually made of cotton or synthetic fabric, wrapped around the body and fastened with a sash (obi).",
+      "material": ["cotton", "linen", "polyester"],
+      "region": ["Nationwide"],
+      "gender": ["female", "male"],
+      "occasion": ["summer festivals", "ryokan (inns)", "daily wear (summer)"]
+    },
+    {
+      "name": "Haori",
+      "type": "jacket",
+      "description": "A traditional Japanese hip- or thigh-length jacket worn over a kimono.",
+      "material": ["silk", "wool", "polyester"],
+      "region": ["Nationwide"],
+      "gender": ["female", "male"],
+      "occasion": ["formal events", "casual wear"]
+    }
+  ]
+}

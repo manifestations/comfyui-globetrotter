@@ -1,0 +1,25 @@
+{
+  "country": "IN",
+  "body_part": "shoulders",
+  "attires": [
+    {
+      "name": "Dupatta",
+      "type": "clothing",
+      "description": "A long, multi-purpose scarf worn with traditional Indian outfits like salwar kameez, lehenga, or choli, draped over the shoulders or head.",
+      "material": ["cotton", "silk", "chiffon", "georgette"],
+      "region": ["Nationwide"],
+      "gender": ["female"],
+      "occasion": ["daily wear", "wedding", "festival"],
+      "related_parts": ["head", "shoulders"]
+    },
+    {
+      "name": "Shawl",
+      "type": "clothing",
+      "description": "A large piece of fabric worn over the shoulders for warmth or style, often made of wool or pashmina, popular in North India.",
+      "material": ["wool", "pashmina", "cotton", "silk"],
+      "region": ["North India", "Kashmir", "Nationwide"],
+      "gender": ["male", "female"],
+      "occasion": ["daily wear", "winter", "festival"]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "country": "us",
+  "body_part": "head",
+  "attires": [
+    {
+      "name": "Cowboy Hat",
+      "type": "hat",
+      "description": "A high-crowned, wide-brimmed hat best known as the defining piece of attire for the North American cowboy.",
+      "material": ["felt", "straw", "leather"],
+      "region": ["Western USA"],
+      "gender": ["male", "female"],
+      "occasion": ["daily wear (rural)", "festivals", "rodeos"]
+    },
+    {
+      "name": "Baseball Cap",
+      "type": "hat",
+      "description": "A type of soft cap with a rounded crown and a stiff peak projecting forward. It is a ubiquitous part of American casual wear.",
+      "material": ["cotton", "wool", "polyester"],
+      "region": ["Nationwide"],
+      "gender": ["male", "female"],
+      "occasion": ["casual wear", "sports"]
+    },
+    {
+      "name": "Coon-skin Cap",
+      "type": "hat",
+      "description": "A hat fashioned from the skin and fur of a raccoon, which became a symbol of American frontiersmen in the 18th and 19th centuries.",
+      "material": ["raccoon fur"],
+      "region": ["Historically Eastern USA"],
+      "gender": ["male"],
+      "occasion": ["historical attire"]
+    }
+  ]
+}

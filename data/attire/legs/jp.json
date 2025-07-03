@@ -1,0 +1,15 @@
+{
+  "country": "jp",
+  "body_part": "legs",
+  "attires": [
+    {
+      "name": "Hakama",
+      "type": "trousers/skirt",
+      "description": "A type of traditional Japanese clothing. Hakama are tied at the waist and fall approximately to the ankles. They are worn over a kimono.",
+      "material": ["silk", "cotton", "polyester"],
+      "region": ["Nationwide"],
+      "gender": ["male", "female"],
+      "occasion": ["martial arts", "graduations", "formal events"]
+    }
+  ]
+}

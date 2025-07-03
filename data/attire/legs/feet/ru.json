@@ -1,0 +1,24 @@
+{
+  "country": "ru",
+  "body_part": "feet",
+  "attires": [
+    {
+      "name": "Valenki",
+      "type": "footwear",
+      "description": "Traditional Russian winter footwear, essentially felt boots. They are not water-resistant, and are often worn with galoshes.",
+      "material": ["wool felt"],
+      "region": ["Nationwide"],
+      "gender": ["male", "female"],
+      "occasion": ["winter", "daily wear"]
+    },
+    {
+      "name": "Lapti",
+      "type": "footwear",
+      "description": "Traditional Russian bast shoes, woven from bast fibers such as linden bark. They are an obsolete type of footwear, now only used in folk costumes.",
+      "material": ["bast fiber", "linden bark"],
+      "region": ["Historically Nationwide"],
+      "gender": ["male", "female"],
+      "occasion": ["historical attire", "folk costumes"]
+    }
+  ]
+}

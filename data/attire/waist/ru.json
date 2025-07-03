@@ -1,0 +1,15 @@
+{
+  "country": "ru",
+  "body_part": "waist",
+  "attires": [
+    {
+      "name": "Poyas",
+      "type": "belt",
+      "description": "A traditional Russian belt, often made of woven fabric with intricate patterns. It was an important part of both male and female costumes.",
+      "material": ["wool", "linen", "silk"],
+      "region": ["Nationwide"],
+      "gender": ["male", "female"],
+      "occasion": ["with traditional clothing"]
+    }
+  ]
+}

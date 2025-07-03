@@ -1,0 +1,42 @@
+{
+  "country": "IN",
+  "body_part": "hair",
+  "attires": [
+    {
+      "name": "Gajra",
+      "type": "accessory",
+      "description": "A floral garland, usually of jasmine, worn in the hair for festive occasions.",
+      "material": ["jasmine flowers"],
+      "region": ["South India", "Maharashtra"],
+      "gender": ["female"],
+      "occasion": ["wedding", "festival"]
+    },
+    {
+      "name": "Juda Pin",
+      "type": "accessory",
+      "description": "Decorative hair pins used to secure buns, often ornate and embellished.",
+      "material": ["metal", "gold", "silver", "stones"],
+      "region": ["Nationwide"],
+      "gender": ["female"],
+      "occasion": ["wedding", "festival"]
+    },
+    {
+      "name": "Choti (Braid) Decoration",
+      "type": "accessory",
+      "description": "Ornamental accessories used to decorate braids, especially in South Indian traditions.",
+      "material": ["gold", "flowers", "beads"],
+      "region": ["South India"],
+      "gender": ["female"],
+      "occasion": ["wedding", "festival"]
+    },
+    {
+      "name": "Shikha (Choti)",
+      "type": "hair_style",
+      "description": "A tuft of hair left at the crown of an otherwise shaven head, traditionally worn by Hindu Brahmin men.",
+      "material": ["hair"],
+      "region": ["Nationwide"],
+      "gender": ["male"],
+      "occasion": ["religious ceremony", "daily wear"]
+    }
+  ]
+}

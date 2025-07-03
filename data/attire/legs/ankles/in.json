@@ -1,0 +1,15 @@
+{
+  "country": "IN",
+  "body_part": "ankles",
+  "attires": [
+    {
+      "name": "Payal (Anklet)",
+      "type": "jewelry",
+      "description": "A traditional silver anklet, often with small bells that jingle when walking, worn by Indian women for both daily wear and special occasions.",
+      "material": ["silver", "gold", "beads"],
+      "region": ["Nationwide"],
+      "gender": ["female"],
+      "occasion": ["daily wear", "wedding", "festival"]
+    }
+  ]
+}

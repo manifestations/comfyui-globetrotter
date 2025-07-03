@@ -1,0 +1,41 @@
+{
+  "country": "id",
+  "regions": [
+    {
+      "name": "Java",
+      "description": "Medium to dark skin, straight or wavy black hair, Javanese features.",
+      "skin_tone": "medium to dark",
+      "hair": "black, straight or wavy"
+    },
+    {
+      "name": "Sumatra",
+      "description": "Medium skin, wavy hair, Sumatran features.",
+      "skin_tone": "medium",
+      "hair": "black, wavy"
+    },
+    {
+      "name": "Bali",
+      "description": "Medium skin, wavy hair, Balinese features.",
+      "skin_tone": "medium",
+      "hair": "black, wavy"
+    },
+    {
+      "name": "Papua",
+      "description": "Dark skin, curly hair, Melanesian features.",
+      "skin_tone": "dark",
+      "hair": "black, curly"
+    },
+    {
+      "name": "Sulawesi North",
+      "description": "Light to medium skin, straight black hair, Minahasan and other North Sulawesi features.",
+      "skin_tone": "light to medium",
+      "hair": "black, straight"
+    },
+    {
+      "name": "Sulawesi South",
+      "description": "Medium to dark skin, wavy or curly black hair, Bugis and Makassarese features.",
+      "skin_tone": "medium to dark",
+      "hair": "black, wavy or curly"
+    }
+  ]
+}

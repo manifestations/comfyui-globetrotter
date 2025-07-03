@@ -1,0 +1,24 @@
+{
+  "country": "fr",
+  "body_part": "head",
+  "attires": [
+    {
+      "name": "Beret",
+      "type": "hat",
+      "description": "A soft, round, flat-crowned cap, originally from the Basque Country. It is strongly associated with French culture.",
+      "material": ["wool", "felt"],
+      "region": ["Nationwide"],
+      "gender": ["male", "female"],
+      "occasion": ["casual wear", "artistic stereotype"]
+    },
+    {
+      "name": "Coiffe",
+      "type": "headdress",
+      "description": "A traditional lace headdress worn by women in various regions of France, especially Brittany. The style and height of the coiffe can signify the wearer's village.",
+      "material": ["lace", "starched cotton"],
+      "region": ["Brittany", "Normandy"],
+      "gender": ["female"],
+      "occasion": ["festivals", "ceremonies"]
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "country": "id",
+  "body_part": "arms",
+  "attires": [
+    {
+      "name": "Selendang",
+      "type": "sash",
+      "description": "A long, narrow sash or scarf, often draped over the shoulder or arm. It can be used for carrying babies or as a ceremonial accessory. The material and pattern are highly symbolic.",
+      "material": ["batik", "songket", "ikat", "silk"],
+      "region": ["Nationwide"],
+      "gender": ["female"],
+      "occasion": ["daily wear", "ceremonies", "weddings"]
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "country": "de",
+  "body_part": "feet",
+  "attires": [
+    {
+      "name": "Haferlschuhe",
+      "type": "footwear",
+      "description": "Traditional Bavarian shoes, originally designed for work in alpine terrain. They are sturdy and have a distinctive side-lacing.",
+      "material": ["leather"],
+      "region": ["Bavaria"],
+      "gender": ["male"],
+      "occasion": ["with Tracht", "hiking"]
+    }
+  ]
+}

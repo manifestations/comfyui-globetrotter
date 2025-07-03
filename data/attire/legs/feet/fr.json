@@ -1,0 +1,24 @@
+{
+  "country": "fr",
+  "body_part": "legs",
+  "attires": [
+    {
+      "name": "Espadrilles",
+      "type": "footwear",
+      "description": "Casual, flat, but sometimes high-heeled shoes. They usually have a canvas or cotton fabric upper and a flexible sole made of esparto rope.",
+      "material": ["canvas", "esparto rope"],
+      "region": ["Basque Country", "Southern France"],
+      "gender": ["male", "female"],
+      "occasion": ["summer", "casual wear"]
+    },
+    {
+      "name": "Sabots",
+      "type": "footwear",
+      "description": "A type of clog from France or surrounding areas such as the Low Countries. Sabots are whole-foot clogs, made from a single piece of wood.",
+      "material": ["wood"],
+      "region": ["Rural areas"],
+      "gender": ["male", "female"],
+      "occasion": ["historical attire", "workwear"]
+    }
+  ]
+}

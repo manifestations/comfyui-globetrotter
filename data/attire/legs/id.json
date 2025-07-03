@@ -1,0 +1,24 @@
+{
+  "country": "id",
+  "body_part": "legs",
+  "attires": [
+    {
+      "name": "Celana Komprang",
+      "type": "trousers",
+      "description": "Loose-fitting trousers often worn by men as part of traditional Sundanese or Betawi attire, especially for martial arts (Pencak Silat). The loose fit allows for freedom of movement.",
+      "material": ["cotton", "canvas"],
+      "region": ["West Java", "Jakarta"],
+      "gender": ["male"],
+      "occasion": ["ceremonial", "performance", "cultural events"]
+    },
+    {
+      "name": "Kain Dodot",
+      "type": "wrapped cloth",
+      "description": "A very long piece of batik cloth (around 4 meters) artfully draped and worn by Javanese royal dancers and bridal couples. It is a symbol of high status.",
+      "material": ["batik tulis (hand-drawn batik)"],
+      "region": ["Central Java", "Yogyakarta"],
+      "gender": ["male", "female"],
+      "occasion": ["royal ceremonies", "weddings", "dance performances"]
+    }
+  ]
+}

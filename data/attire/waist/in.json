@@ -1,0 +1,33 @@
+{
+  "country": "IN",
+  "body_part": "waist",
+  "attires": [
+    {
+      "name": "Kamarband",
+      "type": "jewelry",
+      "description": "An ornamental waist belt, often made of gold or silver, worn by Indian women over sarees or lehengas for weddings and festivals.",
+      "material": ["gold", "silver", "gemstones"],
+      "region": ["Nationwide"],
+      "gender": ["female"],
+      "occasion": ["wedding", "festival"]
+    },
+    {
+      "name": "Oddiyanam",
+      "type": "jewelry",
+      "description": "A traditional South Indian waist belt, usually broad and ornate, worn by women during weddings and classical dances.",
+      "material": ["gold", "silver", "gemstones"],
+      "region": ["South India"],
+      "gender": ["female"],
+      "occasion": ["wedding", "classical dance"]
+    },
+    {
+      "name": "Silver Waist Chain",
+      "type": "jewelry",
+      "description": "A delicate silver chain worn around the waist, popular among Indian women for both daily wear and special occasions.",
+      "material": ["silver"],
+      "region": ["Nationwide"],
+      "gender": ["female"],
+      "occasion": ["daily wear", "festival"]
+    }
+  ]
+}

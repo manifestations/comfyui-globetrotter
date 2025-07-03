@@ -1,0 +1,33 @@
+{
+  "country": "jp",
+  "body_part": "feet",
+  "attires": [
+    {
+      "name": "Tabi",
+      "type": "socks",
+      "description": "Traditional Japanese socks dating back to the 15th century. They have a separation between the big toe and other toes.",
+      "material": ["cotton", "silk"],
+      "region": ["Nationwide"],
+      "gender": ["male", "female"],
+      "occasion": ["with traditional footwear"]
+    },
+    {
+      "name": "Geta",
+      "type": "footwear",
+      "description": "A form of traditional Japanese footwear that resemble both clogs and flip-flops.",
+      "material": ["wood", "cloth"],
+      "region": ["Nationwide"],
+      "gender": ["male", "female"],
+      "occasion": ["with yukata", "casual wear"]
+    },
+    {
+      "name": "Zori",
+      "type": "sandals",
+      "description": "Flat and thonged Japanese sandals made of rice straw or other plant fibers, cloth, lacquered wood, leather, rubber, or synthetic materials.",
+      "material": ["rice straw", "cloth", "wood", "leather"],
+      "region": ["Nationwide"],
+      "gender": ["male", "female"],
+      "occasion": ["with kimono", "formal", "casual"]
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "country": "mx",
+  "body_part": "waist",
+  "attires": [
+    {
+      "name": "Faja",
+      "type": "sash",
+      "description": "A wide sash worn around the waist, often with intricate woven patterns. It is a common element in many traditional Mexican outfits for both men and women.",
+      "material": ["wool", "cotton"],
+      "region": ["Nationwide"],
+      "gender": ["male", "female"],
+      "occasion": ["with traditional clothing"]
+    }
+  ]
+}

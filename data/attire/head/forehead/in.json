@@ -1,0 +1,51 @@
+{
+  "country": "IN",
+  "body_part": "forehead",
+  "attires": [
+    {
+      "name": "Bindi",
+      "type": "cosmetic",
+      "description": "A decorative mark worn on the forehead, traditionally by Hindu women.",
+      "material": ["kumkum", "sandalwood paste", "sticker"],
+      "region": ["Nationwide"],
+      "gender": ["female"],
+      "occasion": ["daily wear", "festival"]
+    },
+    {
+      "name": "Sindoor",
+      "type": "cosmetic",
+      "description": "A red or orange powder applied along the parting of a married Hindu woman's hair, extending onto the forehead.",
+      "material": ["vermillion"],
+      "region": ["Nationwide"],
+      "gender": ["female"],
+      "occasion": ["marriage", "daily wear"]
+    },
+    {
+      "name": "Tilak",
+      "type": "ritual_mark",
+      "description": "A mark, often made with sandalwood paste, ash, or kumkum, applied to the forehead during religious ceremonies.",
+      "material": ["sandalwood paste", "ash", "kumkum"],
+      "region": ["Nationwide"],
+      "gender": ["male", "female"],
+      "occasion": ["religious ceremony", "festival"]
+    },
+    {
+      "name": "Vibhuti (Sacred Ash)",
+      "type": "ritual_mark",
+      "description": "Sacred ash worn on the forehead by Shaivites and ascetics like Aghori, symbolizing purity and devotion.",
+      "material": ["ash"],
+      "region": ["Nationwide"],
+      "gender": ["male", "female"],
+      "occasion": ["religious ceremony", "ascetic practice"]
+    },
+{
+      "name": "Maang Tikka",
+      "type": "jewelry",
+      "description": "A traditional hair ornament worn by Indian women, placed along the parting of the hair and resting on the forehead.",
+      "material": ["gold", "silver", "gemstones"],
+      "region": ["Nationwide"],
+      "gender": ["female"],
+      "occasion": ["wedding", "festival"]
+    }
+  ]
+}

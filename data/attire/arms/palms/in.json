@@ -1,0 +1,33 @@
+{
+  "country": "IN",
+  "body_part": "palms",
+  "attires": [
+    {
+      "name": "Henna (Mehndi) - Traditional",
+      "type": "body art",
+      "description": "Traditional henna designs applied to the palms, featuring floral and paisley patterns, common in weddings and festivals.",
+      "material": ["henna paste"],
+      "region": ["Nationwide"],
+      "gender": ["female"],
+      "occasion": ["wedding", "festival"]
+    },
+    {
+      "name": "Henna (Mehndi) - Arabic Style",
+      "type": "body art",
+      "description": "Henna designs with bold, flowing lines and less intricate filling, popular in North India and among younger women.",
+      "material": ["henna paste"],
+      "region": ["North India", "Nationwide"],
+      "gender": ["female"],
+      "occasion": ["wedding", "festival"]
+    },
+    {
+      "name": "Henna (Mehndi) - Rajasthani Style",
+      "type": "body art",
+      "description": "Highly intricate henna designs covering the entire palm and often extending to the arms, popular in Rajasthan.",
+      "material": ["henna paste"],
+      "region": ["Rajasthan"],
+      "gender": ["female"],
+      "occasion": ["wedding", "festival"]
+    }
+  ]
+}

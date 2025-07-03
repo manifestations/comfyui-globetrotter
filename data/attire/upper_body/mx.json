@@ -1,0 +1,33 @@
+{
+  "country": "mx",
+  "body_part": "upper_body",
+  "attires": [
+    {
+      "name": "Huipil",
+      "type": "tunic",
+      "description": "The most common traditional garment worn by indigenous women from central Mexico to Central America. It is a loose-fitting tunic, generally made from two or three rectangular pieces of fabric which are then joined together with stitching, ribbons or fabric strips.",
+      "material": ["cotton", "wool"],
+      "region": ["Central and Southern Mexico"],
+      "gender": ["female"],
+      "occasion": ["daily wear", "ceremonies"]
+    },
+    {
+      "name": "Guayabera",
+      "type": "shirt",
+      "description": "A men's summer shirt, worn outside the trousers, distinguished by two vertical rows of closely sewn pleats that run the length of the front and back of the shirt.",
+      "material": ["cotton", "linen", "silk"],
+      "region": ["Yucatán Peninsula", "Veracruz"],
+      "gender": ["male"],
+      "occasion": ["formal events", "daily wear in hot weather"]
+    },
+    {
+      "name": "Charro Suit",
+      "type": "suit",
+      "description": "A style of suit that originated in Mexico and is associated with the charro horsemen. It is characterized by its elaborate embroidery and silver buttons.",
+      "material": ["wool", "suede", "silver"],
+      "region": ["Nationwide"],
+      "gender": ["male"],
+      "occasion": ["charreadas (rodeos)", "festivals", "formal events"]
+    }
+  ]
+}

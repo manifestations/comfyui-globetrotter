@@ -1,0 +1,33 @@
+{
+  "country": "ru",
+  "body_part": "upper_body",
+  "attires": [
+    {
+      "name": "Sarafan",
+      "type": "dress",
+      "description": "A traditional Russian jumper dress or pinafore dress, worn by women and girls. It is often worn over a blouse.",
+      "material": ["linen", "cotton", "brocade", "silk"],
+      "region": ["Nationwide"],
+      "gender": ["female"],
+      "occasion": ["folk festivals", "performances", "historical attire"]
+    },
+    {
+      "name": "Kosovorotka",
+      "type": "shirt",
+      "description": "A traditional Russian shirt, which has a-side placket. The placket is positioned to the side, instead of centrally, as is common on Western-style shirts.",
+      "material": ["linen", "cotton", "silk"],
+      "region": ["Nationwide"],
+      "gender": ["male"],
+      "occasion": ["folk festivals", "traditional events"]
+    },
+    {
+      "name": "Telogreika",
+      "type": "jacket",
+      "description": "A type of padded winter jacket that was issued to the Soviet Army. It is a simple, quilted jacket.",
+      "material": ["cotton", "wool padding"],
+      "region": ["Nationwide"],
+      "gender": ["male", "female"],
+      "occasion": ["winter", "historical attire"]
+    }
+  ]
+}

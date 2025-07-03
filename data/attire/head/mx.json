@@ -1,0 +1,24 @@
+{
+  "country": "mx",
+  "body_part": "head",
+  "attires": [
+    {
+      "name": "Sombrero",
+      "type": "hat",
+      "description": "A type of hat from Mexico, known for its wide brim, which is intended to protect the wearer from the sun.",
+      "material": ["straw", "felt"],
+      "region": ["Nationwide"],
+      "gender": ["male", "female"],
+      "occasion": ["festivals", "traditional events", "protection from sun"]
+    },
+    {
+      "name": "Rebozo",
+      "type": "shawl",
+      "description": "A long flat garment, that can be worn in various ways, including as a shawl or head covering. It is a staple of Mexican women's clothing.",
+      "material": ["cotton", "wool", "silk"],
+      "region": ["Nationwide"],
+      "gender": ["female"],
+      "occasion": ["daily wear", "carrying babies", "ceremonies"]
+    }
+  ]
+}

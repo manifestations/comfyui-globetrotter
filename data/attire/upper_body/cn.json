@@ -1,0 +1,33 @@
+{
+  "country": "cn",
+  "body_part": "upper_body",
+  "attires": [
+    {
+      "name": "Hanfu",
+      "type": "robe",
+      "description": "The traditional style of clothing worn by the Han Chinese. There are several types of hanfu, such as the ruqun, the aoku, the daopao, and the shenyi.",
+      "material": ["silk", "brocade", "cotton", "linen"],
+      "region": ["Nationwide"],
+      "gender": ["female", "male"],
+      "occasion": ["festivals", "ceremonies", "cultural events"]
+    },
+    {
+      "name": "Qipao (Cheongsam)",
+      "type": "dress",
+      "description": "A stylish, often tight-fitting, one-piece Chinese dress for women. It was created in the 1920s in Shanghai and was made fashionable by socialites and upper-class women.",
+      "material": ["silk", "brocade", "velvet", "cotton"],
+      "region": ["Nationwide"],
+      "gender": ["female"],
+      "occasion": ["formal events", "weddings", "parties"]
+    },
+    {
+      "name": "Tangzhuang (Tang Suit)",
+      "type": "jacket",
+      "description": "A type of Chinese jacket with a mandarin collar and frog buttons. It is a modern take on traditional Chinese clothing.",
+      "material": ["silk", "brocade", "cotton"],
+      "region": ["Nationwide"],
+      "gender": ["male", "female"],
+      "occasion": ["festivals", "formal events", "casual wear"]
+    }
+  ]
+}

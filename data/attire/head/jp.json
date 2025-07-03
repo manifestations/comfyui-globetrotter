@@ -1,0 +1,33 @@
+{
+  "country": "jp",
+  "body_part": "head",
+  "attires": [
+    {
+      "name": "Kanzashi",
+      "type": "hair ornament",
+      "description": "Traditional hair ornaments worn in the hair of women. They come in many shapes and materials, including silk flowers, lacquered wood, and metal.",
+      "material": ["silk", "wood", "metal", "plastic", "tortoiseshell"],
+      "region": ["Nationwide"],
+      "gender": ["female"],
+      "occasion": ["weddings", "tea ceremonies", "festivals", "with kimono"]
+    },
+    {
+      "name": "Hachimaki",
+      "type": "headband",
+      "description": "A stylized headband, usually made of red or white cloth, worn as a symbol of effort or courage by the wearer.",
+      "material": ["cotton", "towel"],
+      "region": ["Nationwide"],
+      "gender": ["male", "female"],
+      "occasion": ["festivals", "protests", "studying", "manual labor"]
+    },
+    {
+      "name": "Tsunokakushi",
+      "type": "headdress",
+      "description": "A white hood or headdress worn by brides in traditional Shinto weddings, said to hide the bride's 'horns' of jealousy and ego.",
+      "material": ["silk"],
+      "region": ["Nationwide"],
+      "gender": ["female"],
+      "occasion": ["wedding"]
+    }
+  ]
+}

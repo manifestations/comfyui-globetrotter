@@ -1,0 +1,24 @@
+{
+  "country": "mx",
+  "body_part": "feet",
+  "attires": [
+    {
+      "name": "Huaraches",
+      "type": "sandals",
+      "description": "A type of Mexican sandal, with a history that can be traced back to the pre-Columbian era. They are made of woven leather.",
+      "material": ["leather"],
+      "region": ["Nationwide"],
+      "gender": ["male", "female"],
+      "occasion": ["daily wear", "casual"]
+    },
+    {
+      "name": "Adelita Boots",
+      "type": "footwear",
+      "description": "Leather boots often associated with the women soldiers (Adelitas) of the Mexican Revolution. They are sturdy and often have decorative elements.",
+      "material": ["leather"],
+      "region": ["Historically Nationwide"],
+      "gender": ["female"],
+      "occasion": ["historical attire", "folkloric dance"]
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+[
+  {
+    "name": "India",
+    "code": "in",
+    "flag": "🇮🇳"
+  },
+  {
+    "name": "Indonesia",
+    "code": "id",
+    "flag": "🇮🇩"
+  },
+  {
+    "name": "Japan",
+    "code": "jp",
+    "flag": "🇯🇵"
+  },
+  {
+    "name": "China",
+    "code": "cn",
+    "flag": "🇨🇳"
+  },
+  {
+    "name": "Russia",
+    "code": "ru",
+    "flag": "🇷🇺"
+  },
+  {
+    "name": "Germany",
+    "code": "de",
+    "flag": "🇩🇪"
+  },
+  {
+    "name": "France",
+    "code": "fr",
+    "flag": "🇫🇷"
+  },
+  {
+    "name": "USA",
+    "code": "us",
+    "flag": "🇺🇸"
+  },
+  {
+    "name": "Mexico",
+    "code": "mx",
+    "flag": "🇲🇽"
+  }
+]

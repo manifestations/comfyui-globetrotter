@@ -1,0 +1,15 @@
+{
+  "country": "us",
+  "body_part": "legs",
+  "attires": [
+    {
+      "name": "Blue Jeans",
+      "type": "trousers",
+      "description": "Trousers made from denim. They are a classic item of American fashion and are worn by people of all ages and social classes.",
+      "material": ["denim"],
+      "region": ["Nationwide"],
+      "gender": ["male", "female"],
+      "occasion": ["casual wear", "workwear"]
+    }
+  ]
+}

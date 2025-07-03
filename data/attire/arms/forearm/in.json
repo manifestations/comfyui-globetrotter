@@ -1,0 +1,33 @@
+{
+  "country": "IN",
+  "body_part": "forearm",
+  "attires": [
+    {
+      "name": "Henna (Mehndi) - Traditional",
+      "type": "body art",
+      "description": "Traditional henna designs extending from the palms to the forearms, featuring intricate floral and paisley patterns.",
+      "material": ["henna paste"],
+      "region": ["Nationwide"],
+      "gender": ["female"],
+      "occasion": ["wedding", "festival"]
+    },
+    {
+      "name": "Henna (Mehndi) - Arabic Style",
+      "type": "body art",
+      "description": "Arabic style henna with bold, flowing lines and less intricate filling, often extending from the palm to the forearm.",
+      "material": ["henna paste"],
+      "region": ["North India", "Nationwide"],
+      "gender": ["female"],
+      "occasion": ["wedding", "festival"]
+    },
+    {
+      "name": "Henna (Mehndi) - Rajasthani Style",
+      "type": "body art",
+      "description": "Highly detailed Rajasthani henna designs covering the forearm, popular for weddings and special occasions.",
+      "material": ["henna paste"],
+      "region": ["Rajasthan"],
+      "gender": ["female"],
+      "occasion": ["wedding", "festival"]
+    }
+  ]
+}

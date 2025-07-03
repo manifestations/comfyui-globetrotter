@@ -1,0 +1,29 @@
+{
+  "country": "in",
+  "regions": [
+    {
+      "name": "South India",
+      "description": "Darker skin, wavy/curly hair, prominent features, traditional Dravidian appearance.",
+      "skin_tone": "dark to medium brown",
+      "hair": "black, wavy or curly"
+    },
+    {
+      "name": "North India",
+      "description": "Fair to medium skin, straight or wavy hair, Indo-Aryan features.",
+      "skin_tone": "fair to medium",
+      "hair": "black or dark brown, straight or wavy"
+    },
+    {
+      "name": "North East India",
+      "description": "East Asian features, fair to medium skin, straight black hair.",
+      "skin_tone": "fair to medium",
+      "hair": "black, straight"
+    },
+    {
+      "name": "West India",
+      "description": "Medium to dark skin, wavy hair, diverse features.",
+      "skin_tone": "medium to dark",
+      "hair": "black, wavy"
+    }
+  ]
+}

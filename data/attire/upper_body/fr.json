@@ -1,0 +1,24 @@
+{
+  "country": "fr",
+  "body_part": "upper_body",
+  "attires": [
+    {
+      "name": "Breton Shirt (Marinière)",
+      "type": "shirt",
+      "description": "A long-sleeved shirt with horizontal blue and white stripes, originally worn by seamen in the French Navy.",
+      "material": ["cotton"],
+      "region": ["Brittany", "Nationwide"],
+      "gender": ["male", "female"],
+      "occasion": ["casual wear"]
+    },
+    {
+      "name": "Bleu de Travail",
+      "type": "jacket",
+      "description": "A heavy cotton jacket, typically in a deep blue color, originally worn by French workers in the late 19th century.",
+      "material": ["cotton twill", "moleskin"],
+      "region": ["Nationwide"],
+      "gender": ["male"],
+      "occasion": ["workwear", "casual fashion"]
+    }
+  ]
+}

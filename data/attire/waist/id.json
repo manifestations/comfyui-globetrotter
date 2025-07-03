@@ -1,0 +1,33 @@
+{
+  "country": "id",
+  "body_part": "waist",
+  "attires": [
+    {
+      "name": "Sarong",
+      "type": "wrap-around skirt",
+      "description": "A large tube or length of fabric, often wrapped around the waist. The way it is worn and the patterns used can signify marital status, region, and social standing.",
+      "material": ["cotton", "silk", "batik", "songket"],
+      "region": ["Nationwide"],
+      "gender": ["male", "female"],
+      "occasion": ["daily wear", "formal events", "religious ceremonies"]
+    },
+    {
+      "name": "Ikat",
+      "type": "woven fabric",
+      "description": "A resist-dyed woven fabric, often worn as a sash or skirt. The intricate patterns are a form of storytelling and cultural expression.",
+      "material": ["cotton", "silk"],
+      "region": ["East Nusa Tenggara", "Bali", "Sumatra"],
+      "gender": ["male", "female"],
+      "occasion": ["ceremonial", "formal", "weddings"]
+    },
+    {
+      "name": "Stagen",
+      "type": "sash",
+      "description": "A long, tightly wound sash worn around the waist, especially with a kebaya, to create a slender silhouette.",
+      "material": ["cotton"],
+      "region": ["Java", "Bali"],
+      "gender": ["female"],
+      "occasion": ["formal events", "weddings"]
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "country": "IN",
+  "body_part": "upper_body",
+  "attires": [
+    {
+      "name": "Saree Blouse",
+      "type": "clothing",
+      "description": "A fitted upper garment worn under a saree, often short-sleeved or sleeveless, and tailored to match the saree.",
+      "material": ["cotton", "silk", "synthetic"],
+      "region": ["Nationwide"],
+      "gender": ["female"],
+      "occasion": ["daily wear", "wedding", "festival"]
+    },
+    {
+      "name": "Chudidar Top (Kameez)",
+      "type": "clothing",
+      "description": "A long tunic worn with chudidar pants, popular among women in North India and Pakistan.",
+      "material": ["cotton", "silk", "synthetic"],
+      "region": ["North India", "Nationwide"],
+      "gender": ["female"],
+      "occasion": ["daily wear", "festival"],
+      "related_parts": ["upper_body", "waist", "thighs"]
+    },
+    {
+      "name": "Choli",
+      "type": "clothing",
+      "description": "A midriff-baring blouse worn with ghagra or saree, often elaborately embroidered.",
+      "material": ["cotton", "silk", "velvet"],
+      "region": ["Rajasthan", "Gujarat", "Nationwide"],
+      "gender": ["female"],
+      "occasion": ["wedding", "festival"]
+    },
+    {
+      "name": "Kurta",
+      "type": "clothing",
+      "description": "A loose collarless shirt worn by both men and women, often paired with pyjama or churidar.",
+      "material": ["cotton", "silk", "linen"],
+      "region": ["Nationwide"],
+      "gender": ["male", "female"],
+      "occasion": ["daily wear", "festival"]
+    },
+    {
+      "name": "Sherwani",
+      "type": "clothing",
+      "description": "A long, coat-like garment worn by men, especially during weddings and formal occasions.",
+      "material": ["silk", "brocade", "velvet"],
+      "region": ["North India", "Nationwide"],
+      "gender": ["male"],
+      "occasion": ["wedding", "formal"],
+      "related_parts": ["upper_body", "waist", "legs"]
+    },
+    {
+      "name": "Achkan",
+      "type": "clothing",
+      "description": "A knee-length jacket worn by men, similar to a sherwani but lighter, often for formal occasions.",
+      "material": ["cotton", "silk", "wool"],
+      "region": ["North India"],
+      "gender": ["male"],
+      "occasion": ["formal", "festival"]
+    },
+    {
+      "name": "Manipuri Phanek",
+      "type": "clothing",
+      "description": "A traditional handwoven wrap skirt and upper garment worn by Meitei women in Manipur, often with bright stripes and intricate patterns.",
+      "material": ["cotton", "silk"],
+      "region": ["Manipur", "Northeast India"],
+      "gender": ["female"],
+      "occasion": ["festival", "daily wear"]
+    },
+    {
+      "name": "Naga Shawl",
+      "type": "clothing",
+      "description": "A distinctive, handwoven shawl with bold patterns and colors, worn by Naga tribes as a symbol of status and identity.",
+      "material": ["wool", "cotton"],
+      "region": ["Nagaland", "Northeast India"],
+      "gender": ["male", "female"],
+      "occasion": ["festival", "ceremony", "daily wear"]
+    },
+    {
+      "name": "Assamese Mekhela Chador",
+      "type": "clothing",
+      "description": "A two-piece traditional attire worn by Assamese women, consisting of a skirt-like lower garment (mekhela) and a draped upper cloth (chador).",
+      "material": ["silk", "cotton"],
+      "region": ["Assam", "Northeast India"],
+      "gender": ["female"],
+      "occasion": ["wedding", "festival", "daily wear"]
+    },
+    {
+      "name": "Khasi Jainsem",
+      "type": "clothing",
+      "description": "A two-piece dress worn by Khasi women in Meghalaya, consisting of unstitched cloth draped over the body, often with a blouse underneath.",
+      "material": ["cotton", "silk"],
+      "region": ["Meghalaya", "Northeast India"],
+      "gender": ["female"],
+      "occasion": ["festival", "daily wear"]
+    }
+  ]
+}

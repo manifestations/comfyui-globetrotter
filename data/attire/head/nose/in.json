@@ -1,0 +1,24 @@
+{
+  "country": "IN",
+  "body_part": "nose",
+  "attires": [
+    {
+      "name": "Nath",
+      "type": "jewelry",
+      "description": "A large traditional nose ring, often worn by brides and during festivals. In Rajasthan, it is especially large and ornate, sometimes connected to the hair or ear with a chain.",
+      "material": ["gold", "silver", "pearls", "gemstones"],
+      "region": ["Rajasthan", "Maharashtra", "Punjab", "Uttar Pradesh"],
+      "gender": ["female"],
+      "occasion": ["wedding", "festival"]
+    },
+    {
+      "name": "Nathni",
+      "type": "jewelry",
+      "description": "A smaller nose ring or stud, popular across India and often worn daily or for special occasions.",
+      "material": ["gold", "silver", "diamond"],
+      "region": ["Nationwide"],
+      "gender": ["female"],
+      "occasion": ["daily wear", "festival"]
+    }
+  ]
+}

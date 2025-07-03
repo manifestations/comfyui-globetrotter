@@ -1,0 +1,24 @@
+{
+  "country": "IN",
+  "body_part": "chin",
+  "attires": [
+    {
+      "name": "Chin Dot (Chin Bindi)",
+      "type": "cosmetic",
+      "description": "A decorative dot or series of dots applied to the chin, seen in some South Indian and tribal communities as a beauty mark or cultural identifier.",
+      "material": ["kumkum", "sindoor", "ash", "black kajal", "henna"],
+      "region": ["South India", "Tribal India"],
+      "gender": ["female"],
+      "occasion": ["daily wear", "festival", "ritual"]
+    },
+    {
+      "name": "Chin Tattoo (Godna)",
+      "type": "body_art",
+      "description": "Traditional tattooing on the chin, practiced by some tribal groups in Central and Eastern India for cultural or spiritual reasons.",
+      "material": ["tattoo ink"],
+      "region": ["Central India", "Eastern India", "Tribal India"],
+      "gender": ["female"],
+      "occasion": ["cultural tradition", "initiation"]
+    }
+  ]
+}

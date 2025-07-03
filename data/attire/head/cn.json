@@ -1,0 +1,33 @@
+{
+  "country": "cn",
+  "body_part": "head",
+  "attires": [
+    {
+      "name": "Phoenix Crown (Fengguan)",
+      "type": "headdress",
+      "description": "A traditional ceremonial headdress for women, most notably worn by brides. It is adorned with phoenixes, dragons, and other intricate designs.",
+      "material": ["gold", "silver", "pearls", "kingfisher feathers", "gemstones"],
+      "region": ["Nationwide"],
+      "gender": ["female"],
+      "occasion": ["weddings", "formal ceremonies"]
+    },
+    {
+      "name": "Guan",
+      "type": "headwear",
+      "description": "A general term for a variety of traditional Chinese hats or caps, often worn by scholars and officials in ancient times.",
+      "material": ["silk", "horsehair", "bamboo"],
+      "region": ["Nationwide"],
+      "gender": ["male"],
+      "occasion": ["formal events", "historical attire"]
+    },
+    {
+      "name": "Mianfu Crown",
+      "type": "headdress",
+      "description": "A ceremonial crown worn by Chinese emperors and kings, featuring a flat top board with strings of jade beads.",
+      "material": ["jade", "silk", "gold"],
+      "region": ["Nationwide"],
+      "gender": ["male"],
+      "occasion": ["imperial ceremonies"]
+    }
+  ]
+}

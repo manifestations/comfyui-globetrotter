@@ -1,0 +1,42 @@
+{
+  "country": "id",
+  "body_part": "upper_body",
+  "attires": [
+    {
+      "name": "Batik Shirt",
+      "type": "shirt",
+      "description": "A versatile shirt made from traditional Indonesian batik fabric. Patterns and colors vary widely by region and occasion.",
+      "material": ["cotton", "silk", "linen"],
+      "region": ["Nationwide"],
+      "gender": ["male", "female"],
+      "occasion": ["formal events", "work", "casual wear"]
+    },
+    {
+      "name": "Kebaya",
+      "type": "blouse",
+      "description": "An elegant traditional blouse, often made of sheer material and adorned with intricate embroidery or lace. Worn with a sarong or batik skirt.",
+      "material": ["silk", "cotton", "lace", "brocade", "velvet"],
+      "region": ["Java", "Bali", "Sumatra"],
+      "gender": ["female"],
+      "occasion": ["weddings", "formal events", "national holidays"]
+    },
+    {
+      "name": "Baju Koko",
+      "type": "shirt",
+      "description": "A collarless long-sleeved shirt, often worn by Muslim men, especially during religious holidays like Eid al-Fitr.",
+      "material": ["cotton", "polyester"],
+      "region": ["Nationwide"],
+      "gender": ["male"],
+      "occasion": ["religious events", "formal occasions"]
+    },
+    {
+      "name": "Surjan",
+      "type": "shirt",
+      "description": "A traditional Javanese long-sleeved shirt for men, featuring a striped pattern and a unique collar design.",
+      "material": ["cotton", "lurik fabric"],
+      "region": ["Central Java", "Yogyakarta"],
+      "gender": ["male"],
+      "occasion": ["cultural ceremonies", "formal events"]
+    }
+  ]
+}

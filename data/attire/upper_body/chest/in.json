@@ -1,0 +1,15 @@
+{
+  "country": "IN",
+  "body_part": "chest",
+  "attires": [
+    {
+      "name": "Janeu (Yajnopavita)",
+      "type": "sacred thread",
+      "description": "A sacred thread worn across the chest by Hindu Brahmin men after the Upanayana (sacred thread) ceremony, symbolizing spiritual initiation and responsibility.",
+      "material": ["cotton"],
+      "region": ["Nationwide"],
+      "gender": ["male"],
+      "occasion": ["religious ceremony", "daily wear"]
+    }
+  ]
+}

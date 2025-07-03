@@ -1,0 +1,78 @@
+{
+  "country": "IN",
+  "body_part": "head",
+  "attires": [
+    {
+      "name": "Ghoongat",
+      "type": "veil",
+      "description": "A traditional veil or scarf draped over the head and often the face, worn by women in North India as a symbol of modesty and respect.",
+      "material": ["cotton", "silk", "chiffon", "georgette"],
+      "region": ["North India", "Rajasthan", "Uttar Pradesh", "Haryana"],
+      "gender": ["female"],
+      "occasion": ["wedding", "religious ceremony", "daily wear"]
+    },
+    {
+      "name": "Monkey Cap",
+      "type": "headwear",
+      "description": "A knitted woolen cap covering the head and neck, commonly worn by men and children during winter in North India, especially Delhi.",
+      "material": ["wool", "acrylic"],
+      "region": ["North India", "Delhi"],
+      "gender": ["male", "female", "children"],
+      "occasion": ["winter", "daily wear"]
+    },
+    {
+      "name": "Pagri (Turban)",
+      "type": "headwear",
+      "description": "A traditional turban, worn in various styles across India, symbolizing honor, respect, and cultural identity.",
+      "material": ["cotton", "silk"],
+      "region": ["Rajasthan", "Punjab", "Gujarat", "Nationwide"],
+      "gender": ["male"],
+      "occasion": ["wedding", "festival", "daily wear"]
+    },
+    {
+      "name": "Safa",
+      "type": "headwear",
+      "description": "A style of turban, usually brightly colored and worn during weddings and festivals in Rajasthan and Gujarat.",
+      "material": ["cotton", "silk"],
+      "region": ["Rajasthan", "Gujarat"],
+      "gender": ["male"],
+      "occasion": ["wedding", "festival"]
+    },
+    {
+      "name": "Pheta",
+      "type": "headwear",
+      "description": "A distinctive style of turban from Maharashtra, often worn during ceremonies and celebrations.",
+      "material": ["cotton", "silk"],
+      "region": ["Maharashtra"],
+      "gender": ["male"],
+      "occasion": ["wedding", "festival"]
+    },
+    {
+      "name": "Patka",
+      "type": "headwear",
+      "description": "A simple headscarf or small turban, commonly worn by Sikh boys and men, especially in Punjab.",
+      "material": ["cotton"],
+      "region": ["Punjab"],
+      "gender": ["male", "children"],
+      "occasion": ["daily wear"]
+    },
+    {
+      "name": "South Indian Temple Jewelry",
+      "type": "accessory",
+      "description": "Ornate gold jewelry with temple motifs, worn on the head and hair by classical dancers and brides in South India.",
+      "material": ["gold", "precious stones"],
+      "region": ["Tamil Nadu", "Kerala", "South India"],
+      "gender": ["female"],
+      "occasion": ["wedding", "dance performance", "festival"]
+    },
+    {
+      "name": "Punjabi Paranda",
+      "type": "hair accessory",
+      "description": "A colorful, decorative tassel braided into the hair by Punjabi women, especially during festivals and celebrations.",
+      "material": ["silk", "cotton", "wool"],
+      "region": ["Punjab"],
+      "gender": ["female"],
+      "occasion": ["festival", "wedding"]
+    }
+  ]
+}

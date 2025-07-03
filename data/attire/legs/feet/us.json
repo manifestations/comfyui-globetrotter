@@ -1,0 +1,24 @@
+{
+  "country": "us",
+  "body_part": "feet",
+  "attires": [
+    {
+      "name": "Cowboy Boots",
+      "type": "footwear",
+      "description": "A specific style of riding boot, historically worn by cowboys. They have a high heel, rounded to pointed toe, high shaft, and, traditionally, no lacing.",
+      "material": ["leather"],
+      "region": ["Western USA"],
+      "gender": ["male", "female"],
+      "occasion": ["daily wear (rural)", "festivals", "rodeos"]
+    },
+    {
+      "name": "Sneakers",
+      "type": "footwear",
+      "description": "Shoes primarily designed for sports or other forms of physical exercise, but which are now also widely used for everyday casual wear.",
+      "material": ["canvas", "leather", "rubber", "plastic"],
+      "region": ["Nationwide"],
+      "gender": ["male", "female"],
+      "occasion": ["sports", "casual wear"]
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "country": "IN",
+  "body_part": "foot",
+  "attires": [
+    {
+      "name": "Kolhapuri Chappal",
+      "type": "footwear",
+      "description": "Handcrafted leather slippers from Maharashtra, worn by both men and women.",
+      "material": ["leather"],
+      "region": ["Maharashtra"],
+      "gender": ["male", "female"],
+      "occasion": ["daily wear", "festival"]
+    },
+    {
+      "name": "Jutti",
+      "type": "footwear",
+      "description": "Traditional North Indian footwear, often embroidered, worn by both men and women, especially in Punjab and Rajasthan.",
+      "material": ["leather", "fabric", "embroidery"],
+      "region": ["Punjab", "Rajasthan", "North India"],
+      "gender": ["male", "female"],
+      "occasion": ["wedding", "festival", "daily wear"]
+    },
+    {
+      "name": "Paduka",
+      "type": "footwear",
+      "description": "Ancient Indian wooden sandals, traditionally worn by saints and sometimes during religious ceremonies.",
+      "material": ["wood"],
+      "region": ["Nationwide"],
+      "gender": ["male", "female"],
+      "occasion": ["religious ceremony"]
+    },
+    {
+      "name": "Pula Chappal",
+      "type": "footwear",
+      "description": "Traditional grass or fiber slippers from Himachal Pradesh, eco-friendly and handmade.",
+      "material": ["grass", "fiber"],
+      "region": ["Himachal Pradesh"],
+      "gender": ["male", "female"],
+      "occasion": ["daily wear"]
+    }
+  ]
+}
+

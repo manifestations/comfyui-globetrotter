@@ -1,0 +1,33 @@
+{
+  "country": "de",
+  "body_part": "head",
+  "attires": [
+    {
+      "name": "Gamsbart",
+      "type": "hat ornament",
+      "description": "A tuft of hair collected from the lower neck of the chamois goat, traditionally worn as a decorative element on Trachten hats.",
+      "material": ["chamois hair"],
+      "region": ["Bavaria", "Alps"],
+      "gender": ["male"],
+      "occasion": ["festivals", "formal traditional events"]
+    },
+    {
+      "name": "Bollenhut",
+      "type": "hat",
+      "description": "A formal headdress worn by women as part of the traditional costume of the Black Forest. It is famous for its large, red pompoms on top for unmarried women and black for married women.",
+      "material": ["straw", "wool pompoms"],
+      "region": ["Black Forest"],
+      "gender": ["female"],
+      "occasion": ["festivals", "ceremonies"]
+    },
+    {
+      "name": "Tirolerhut (Tyrolean Hat)",
+      "type": "hat",
+      "description": "A type of headwear that originally came from the Tyrol in the Alps. It is a felt hat with a cord wrapped around the base and a feather or brush on the side.",
+      "material": ["felt", "cord", "feathers"],
+      "region": ["Bavaria", "Tyrol"],
+      "gender": ["male", "female"],
+      "occasion": ["folk festivals", "casual wear"]
+    }
+  ]
+}

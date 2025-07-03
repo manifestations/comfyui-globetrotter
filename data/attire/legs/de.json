@@ -1,0 +1,15 @@
+{
+  "country": "de",
+  "body_part": "legs",
+  "attires": [
+    {
+      "name": "Lederhosen",
+      "type": "trousers",
+      "description": "Leather breeches, a traditional piece of clothing from Bavaria. They can be short or knee-length.",
+      "material": ["leather"],
+      "region": ["Bavaria", "Southern Germany"],
+      "gender": ["male"],
+      "occasion": ["Oktoberfest", "folk festivals", "weddings"]
+    }
+  ]
+}

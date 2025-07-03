@@ -1,0 +1,33 @@
+{
+  "country": "us",
+  "body_part": "upper_body",
+  "attires": [
+    {
+      "name": "Denim Jacket",
+      "type": "jacket",
+      "description": "A jacket made from denim. It has been a popular type of casual apparel for both men and women for over a century.",
+      "material": ["denim"],
+      "region": ["Nationwide"],
+      "gender": ["male", "female"],
+      "occasion": ["casual wear"]
+    },
+    {
+      "name": "Flannel Shirt",
+      "type": "shirt",
+      "description": "A soft, woven fabric, of various fineness. Flannel shirts are often associated with lumberjacks and the grunge music scene.",
+      "material": ["flannel", "cotton"],
+      "region": ["Nationwide"],
+      "gender": ["male", "female"],
+      "occasion": ["casual wear", "workwear"]
+    },
+    {
+      "name": "T-shirt",
+      "type": "shirt",
+      "description": "A style of fabric shirt named after the T shape of its body and sleeves. It is arguably the most popular and ubiquitous item of clothing in the USA.",
+      "material": ["cotton", "polyester", "blends"],
+      "region": ["Nationwide"],
+      "gender": ["male", "female"],
+      "occasion": ["casual wear", "workwear", "sports"]
+    }
+  ]
+}

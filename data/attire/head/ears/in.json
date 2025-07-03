@@ -1,0 +1,51 @@
+{
+  "country": "IN",
+  "body_part": "ears",
+  "attires": [
+    {
+      "name": "Jhumka",
+      "type": "jewelry",
+      "description": "Traditional bell-shaped earrings, often ornate and dangling, worn by Indian women for festive occasions.",
+      "material": ["gold", "silver", "gemstones", "pearls"],
+      "region": ["Nationwide"],
+      "gender": ["female"],
+      "occasion": ["wedding", "festival"]
+    },
+    {
+      "name": "Bali",
+      "type": "jewelry",
+      "description": "Hoop earrings, popular in many regions of India, worn by both men and women.",
+      "material": ["gold", "silver"],
+      "region": ["Nationwide"],
+      "gender": ["male", "female"],
+      "occasion": ["daily wear", "festival"]
+    },
+    {
+      "name": "Kaanphool",
+      "type": "jewelry",
+      "description": "Floral-shaped ear ornaments, often covering the entire ear, popular in Rajasthan and among classical dancers.",
+      "material": ["gold", "silver", "gemstones"],
+      "region": ["Rajasthan", "North India"],
+      "gender": ["female"],
+      "occasion": ["wedding", "classical dance"]
+    },
+    {
+      "name": "Kundal",
+      "type": "jewelry",
+      "description": "Traditional circular or spiral earrings, worn in rural and tribal communities.",
+      "material": ["gold", "silver", "brass"],
+      "region": ["Rajasthan", "Gujarat", "Madhya Pradesh"],
+      "gender": ["female"],
+      "occasion": ["festival", "daily wear"]
+    },
+    {
+      "name": "Latkan",
+      "type": "jewelry",
+      "description": "Dangling earring attachments, often paired with other earrings for added ornamentation.",
+      "material": ["gold", "silver", "beads", "thread"],
+      "region": ["Nationwide"],
+      "gender": ["female"],
+      "occasion": ["festival", "wedding"]
+    }
+  ]
+}

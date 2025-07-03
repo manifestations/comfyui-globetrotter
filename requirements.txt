@@ -1,0 +1,6 @@
+# Python dependencies for ComfyUI Globetrotter Nodes
+# Add more as needed for AI/image generation
+jinja2
+flake8
+# If you use any LLM or API nodes, add their dependencies here
+# Example: requests

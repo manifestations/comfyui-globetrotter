@@ -1,0 +1,42 @@
+{
+  "country": "id",
+  "body_part": "head",
+  "attires": [
+    {
+      "name": "Blangkon",
+      "type": "headwear",
+      "description": "A traditional Javanese headdress for men, made from batik fabric. Its shape and pattern can signify social status and origin.",
+      "material": ["batik cloth", "cotton"],
+      "region": ["Central Java", "Yogyakarta", "East Java"],
+      "gender": ["male"],
+      "occasion": ["formal events", "weddings", "cultural ceremonies"]
+    },
+    {
+      "name": "Siger",
+      "type": "headdress",
+      "description": "A large, ornate, golden crown-like headdress worn by Sundanese brides, symbolizing wisdom and femininity.",
+      "material": ["gold-plated metal", "brass", "imitation diamonds"],
+      "region": ["West Java", "Lampung"],
+      "gender": ["female"],
+      "occasion": ["wedding"]
+    },
+    {
+      "name": "Iket",
+      "type": "headcloth",
+      "description": "A traditional Sundanese headcloth for men, tied in various styles. A practical and symbolic accessory.",
+      "material": ["cotton", "batik cloth"],
+      "region": ["West Java"],
+      "gender": ["male"],
+      "occasion": ["daily wear", "martial arts", "cultural events"]
+    },
+    {
+      "name": "Konde",
+      "type": "hair bun",
+      "description": "A traditional hair bun, often adorned with jasmine flowers or golden pins. The style varies by region and occasion.",
+      "material": ["hair", "jasmine flowers", "gold pins"],
+      "region": ["Java", "Bali"],
+      "gender": ["female"],
+      "occasion": ["weddings", "formal events", "dance performances"]
+    }
+  ]
+}

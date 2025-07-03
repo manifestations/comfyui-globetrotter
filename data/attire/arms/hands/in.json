@@ -1,0 +1,24 @@
+{
+  "country": "IN",
+  "body_part": "hands",
+  "attires": [
+    {
+      "name": "Henna (Mehndi)",
+      "type": "cosmetic",
+      "description": "A natural dye applied in intricate patterns on the hands, especially during weddings and festivals.",
+      "material": ["henna paste"],
+      "region": ["Nationwide"],
+      "gender": ["female"],
+      "occasion": ["wedding", "festival", "special occasion"]
+    },
+    {
+      "name": "Rings",
+      "type": "ornament",
+      "description": "Finger rings made of various materials, worn for adornment or symbolic reasons.",
+      "material": ["gold", "silver", "diamond", "gemstone"],
+      "region": ["Nationwide"],
+      "gender": ["male", "female"],
+      "occasion": ["daily wear", "wedding", "festival"]
+    }
+  ]
+}

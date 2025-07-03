@@ -1,0 +1,33 @@
+{
+  "country": "ru",
+  "body_part": "head",
+  "attires": [
+    {
+      "name": "Ushanka",
+      "type": "hat",
+      "description": "A traditional Russian fur cap with ear flaps that can be tied up at the crown of the cap, or fastened at the chin to protect the ears, jaw, and lower chin from the cold.",
+      "material": ["fur", "leather", "wool"],
+      "region": ["Nationwide"],
+      "gender": ["male", "female"],
+      "occasion": ["winter", "daily wear"]
+    },
+    {
+      "name": "Kokoshnik",
+      "type": "headdress",
+      "description": "A traditional Russian headdress worn by women and girls to accompany the sarafan. It is a high, crescent-shaped or halo-like headdress.",
+      "material": ["velvet", "brocade", "pearls", "gold thread"],
+      "region": ["Nationwide"],
+      "gender": ["female"],
+      "occasion": ["festivals", "folk performances", "weddings"]
+    },
+    {
+      "name": "Papakha",
+      "type": "hat",
+      "description": "A high, furry hat, usually made of karakul sheepskin. It is a part of the traditional male costume of the peoples of the Caucasus and a uniform of the Russian army.",
+      "material": ["sheepskin", "wool"],
+      "region": ["Caucasus", "Southern Russia"],
+      "gender": ["male"],
+      "occasion": ["traditional events", "military uniform"]
+    }
+  ]
+}

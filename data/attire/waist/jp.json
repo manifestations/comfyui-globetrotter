@@ -1,0 +1,33 @@
+{
+  "country": "jp",
+  "body_part": "waist",
+  "attires": [
+    {
+      "name": "Obi",
+      "type": "sash",
+      "description": "A sash for traditional Japanese dress, keikogi, and part of kimono outfits. The obi for men's kimono is rather narrow, while the women's obi can be very wide and elaborate.",
+      "material": ["silk", "brocade", "cotton"],
+      "region": ["Nationwide"],
+      "gender": ["female", "male"],
+      "occasion": ["with kimono", "with yukata"]
+    },
+    {
+      "name": "Obijime",
+      "type": "cord",
+      "description": "A decorative string, usually braided, tied around the obi to hold it in place.",
+      "material": ["silk", "cotton"],
+      "region": ["Nationwide"],
+      "gender": ["female"],
+      "occasion": ["with kimono"]
+    },
+    {
+      "name": "Obiage",
+      "type": "sash",
+      "description": "A sash-like piece of cloth that is tied above the obi and helps to keep the obi bow in place. It is often made of silk and is visible above the obi.",
+      "material": ["silk"],
+      "region": ["Nationwide"],
+      "gender": ["female"],
+      "occasion": ["with kimono"]
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "country": "IN",
+  "body_part": "upper_arm",
+  "attires": [
+    {
+      "name": "Bajuband (Armlet)",
+      "type": "jewelry",
+      "description": "An ornamental band or armlet worn on the upper arm by Indian women, especially during weddings and festivals.",
+      "material": ["gold", "silver", "gemstones", "beads"],
+      "region": ["Rajasthan", "Gujarat", "Maharashtra", "Nationwide"],
+      "gender": ["female"],
+      "occasion": ["wedding", "festival"]
+    }
+  ]
+}

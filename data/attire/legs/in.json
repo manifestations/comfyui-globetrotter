@@ -1,0 +1,70 @@
+{
+  "country": "IN",
+  "body_part": "legs",
+  "attires": [
+    {
+      "name": "Pyjama",
+      "type": "clothing",
+      "description": "Loose-fitting trousers, traditionally worn by men and women, often paired with a kurta or sherwani.",
+      "material": ["cotton", "silk", "linen"],
+      "region": ["Nationwide"],
+      "gender": ["male", "female"],
+      "occasion": ["daily wear", "festival"]
+    },
+    {
+      "name": "Lungi",
+      "type": "clothing",
+      "description": "A traditional garment, a length of cloth wrapped around the waist and legs, commonly worn by men in South India and Bengal.",
+      "material": ["cotton", "silk"],
+      "region": ["South India", "Bengal"],
+      "gender": ["male"],
+      "occasion": ["daily wear", "festival"]
+    },
+    {
+      "name": "Dhoti",
+      "type": "clothing",
+      "description": "A rectangular piece of unstitched cloth, wrapped around the waist and legs, worn by men, especially during religious ceremonies.",
+      "material": ["cotton", "silk"],
+      "region": ["Nationwide"],
+      "gender": ["male"],
+      "occasion": ["religious ceremony", "festival"]
+    },
+    {
+      "name": "Ghagra",
+      "type": "clothing",
+      "description": "A long, pleated skirt worn by women, especially in Rajasthan and Gujarat, often paired with a choli and dupatta.",
+      "material": ["cotton", "silk", "georgette"],
+      "region": ["Rajasthan", "Gujarat"],
+      "gender": ["female"],
+      "occasion": ["wedding", "festival"]
+    },
+    {
+      "name": "Lehenga",
+      "type": "clothing",
+      "description": "A long, embroidered skirt worn by women, often with a choli and dupatta, popular for weddings and festivals.",
+      "material": ["silk", "velvet", "georgette", "net"],
+      "region": ["North India", "Nationwide"],
+      "gender": ["female"],
+      "occasion": ["wedding", "festival"]
+    },
+    {
+      "name": "Pavadai (Langa)",
+      "type": "clothing",
+      "description": "A traditional South Indian skirt worn by girls and women, often paired with a blouse (choli).",
+      "material": ["cotton", "silk"],
+      "region": ["South India"],
+      "gender": ["female"],
+      "occasion": ["festival", "daily wear"]
+    },
+    {
+      "name": "Saree",
+      "type": "clothing",
+      "description": "A long, unstitched drape wrapped around the waist and over the shoulder, worn by women across India, often with a blouse and petticoat.",
+      "material": ["cotton", "silk", "synthetic", "georgette", "chiffon"],
+      "region": ["Nationwide"],
+      "gender": ["female"],
+      "occasion": ["daily wear", "wedding", "festival"],
+      "related_parts": ["upper_body", "waist", "legs", "shoulders"]
+    }
+  ]
+}
