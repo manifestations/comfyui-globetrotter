@@ -1,13 +1,12 @@
 class TextCombinerNode:
-    """
-    A node to combine multiple text inputs into a single comma-separated string.
-    """
+    """A node to combine text inputs into a single comma-separated string."""
+
     @classmethod
     def INPUT_TYPES(cls):
         return {
             "required": {
-                "text_1": ("STRING", ),
-                "text_2": ("STRING", ),
+                "text_1": ("STRING",),
+                "text_2": ("STRING",),
             }
         }
 
@@ -21,13 +20,12 @@ class TextCombinerNode:
         """
         Combines the provided text inputs into a single comma-separated string.
         """
-        text_parts = [text for text in [text_1, text_2] if text and text.strip()]
+        text_parts = [
+            text for text in [text_1, text_2] if text and text.strip()
+        ]
         return (", ".join(text_parts),)
 
-NODE_CLASS_MAPPINGS = {
-    "TextCombinerNode": TextCombinerNode
-}
 
-NODE_DISPLAY_NAME_MAPPINGS = {
-    "TextCombinerNode": "Text Combiner"
-}
+NODE_CLASS_MAPPINGS = {"TextCombinerNode": TextCombinerNode}
+
+NODE_DISPLAY_NAME_MAPPINGS = {"TextCombinerNode": "Text Combiner"}

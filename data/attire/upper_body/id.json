@@ -37,6 +37,114 @@
       "region": ["Central Java", "Yogyakarta"],
       "gender": ["male"],
       "occasion": ["cultural ceremonies", "formal events"]
+    },
+    {
+      "name": "Baju Bodo",
+      "type": "blouse",
+      "description": "A brightly colored, short-sleeved sheer blouse, traditional to Bugis women of South Sulawesi. Often worn with a matching sarong and gold jewelry.",
+      "material": ["silk", "cotton"],
+      "region": ["South Sulawesi"],
+      "gender": ["female"],
+      "occasion": ["weddings", "traditional ceremonies"]
+    },
+    {
+      "name": "Ulos Shawl",
+      "type": "shawl",
+      "description": "A handwoven ceremonial shawl from the Batak people, draped over the shoulders or upper body, symbolizing blessings and respect.",
+      "material": ["cotton", "silk"],
+      "region": ["North Sumatra"],
+      "gender": ["male", "female"],
+      "occasion": ["weddings", "funerals", "cultural ceremonies"]
+    },
+    {
+      "name": "Baju Kurung",
+      "type": "tunic",
+      "description": "A loose, long-sleeved tunic worn by Malay and Minangkabau women, often paired with a sarong or songket skirt.",
+      "material": ["cotton", "silk", "songket"],
+      "region": ["Sumatra", "Riau", "West Kalimantan"],
+      "gender": ["female"],
+      "occasion": ["religious events", "formal occasions"]
+    },
+    {
+      "name": "Baju Cele",
+      "type": "shirt",
+      "description": "A traditional red-striped shirt from Maluku, worn with a sarong and belt, often during dances and ceremonies.",
+      "material": ["cotton"],
+      "region": ["Maluku"],
+      "gender": ["male", "female"],
+      "occasion": ["cultural events", "dances"]
+    },
+    {
+      "name": "Baju Sasak",
+      "type": "shirt",
+      "description": "Traditional attire of the Sasak people of Lombok, featuring a long-sleeved shirt with unique woven patterns.",
+      "material": ["cotton", "woven fabric"],
+      "region": ["Lombok"],
+      "gender": ["male"],
+      "occasion": ["ceremonial", "cultural events"]
+    },
+    {
+      "name": "Baju Adat Papua",
+      "type": "vest",
+      "description": "A traditional Papuan vest made from natural fibers, often decorated with shells and beads, worn during festivals and rituals.",
+      "material": ["bark cloth", "beads", "shells"],
+      "region": ["Papua"],
+      "gender": ["male", "female"],
+      "occasion": ["festivals", "rituals"]
+    },
+    {
+      "name": "Baju Tutu",
+      "type": "shirt",
+      "description": "A traditional Bugis men's shirt from South Sulawesi, often paired with a sarong and woven belt for ceremonies.",
+      "material": ["cotton", "silk"],
+      "region": ["South Sulawesi"],
+      "gender": ["male"],
+      "occasion": ["weddings", "traditional ceremonies"]
+    },
+    {
+      "name": "Lipa Sabbe",
+      "type": "shawl",
+      "description": "A handwoven silk shawl from Bugis-Makassar, South Sulawesi, worn draped over the shoulder or as a sash.",
+      "material": ["silk"],
+      "region": ["South Sulawesi"],
+      "gender": ["female", "male"],
+      "occasion": ["weddings", "cultural events"]
+    },
+    {
+      "name": "Kebaya Bali",
+      "type": "blouse",
+      "description": "A Balinese version of the kebaya, often brightly colored and worn with a sash (selendang) and batik or songket sarong.",
+      "material": ["lace", "cotton", "silk"],
+      "region": ["Bali"],
+      "gender": ["female"],
+      "occasion": ["temple ceremonies", "festivals", "weddings"]
+    },
+    {
+      "name": "Kamen",
+      "type": "sash",
+      "description": "A long cloth sash worn by both men and women in Bali, wrapped around the waist over a kebaya or shirt.",
+      "material": ["cotton", "batik", "songket"],
+      "region": ["Bali"],
+      "gender": ["female", "male"],
+      "occasion": ["temple ceremonies", "festivals"]
+    },
+    {
+      "name": "Beskap",
+      "type": "jacket",
+      "description": "A formal Javanese jacket for men, often worn with a batik sarong and blangkon headdress during ceremonies.",
+      "material": ["cotton", "velvet"],
+      "region": ["Central Java", "Yogyakarta"],
+      "gender": ["male"],
+      "occasion": ["weddings", "formal events"]
+    },
+    {
+      "name": "Kain Poleng",
+      "type": "shawl",
+      "description": "A black-and-white checkered cloth from Bali, symbolizing balance, often worn as a sash or draped over the shoulder during rituals.",
+      "material": ["cotton"],
+      "region": ["Bali"],
+      "gender": ["male", "female"],
+      "occasion": ["temple ceremonies", "rituals"]
     }
   ]
 }

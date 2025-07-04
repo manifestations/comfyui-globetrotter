@@ -1,41 +1,46 @@
 {
-  "country": "id",
   "regions": [
     {
       "name": "Java",
-      "description": "Medium to dark skin, straight or wavy black hair, Javanese features.",
+      "description": "People from Java, the most populous island, with diverse features. Generally medium skin tone, straight black hair, and soft facial features.",
+      "skin_tone": "medium",
+      "hair": "black, straight"
+    },
+    {
+      "name": "Bali",
+      "description": "Balinese people, known for their unique culture and Hindu traditions. Features include light to medium skin, wavy or straight black hair, and delicate facial features.",
+      "skin_tone": "light to medium",
+      "hair": "black, wavy or straight"
+    },
+    {
+      "name": "Sumatra",
+      "description": "Sumatrans, including Batak, Minangkabau, and Acehnese. Features include medium to dark skin, thick black hair, and strong facial features.",
+      "skin_tone": "medium to dark",
+      "hair": "black, thick, straight or wavy"
+    },
+    {
+      "name": "Sulawesi",
+      "description": "People from Sulawesi, including Bugis, Makassar, and Toraja. Features include medium skin, wavy or curly black hair, and prominent cheekbones.",
+      "skin_tone": "medium",
+      "hair": "black, wavy or curly"
+    },
+    {
+      "name": "Kalimantan",
+      "description": "People from Kalimantan (Borneo), including Dayak communities. Features include medium to dark skin, straight or wavy black hair, and broad facial features.",
       "skin_tone": "medium to dark",
       "hair": "black, straight or wavy"
     },
     {
-      "name": "Sumatra",
-      "description": "Medium skin, wavy hair, Sumatran features.",
-      "skin_tone": "medium",
-      "hair": "black, wavy"
-    },
-    {
-      "name": "Bali",
-      "description": "Medium skin, wavy hair, Balinese features.",
-      "skin_tone": "medium",
-      "hair": "black, wavy"
-    },
-    {
       "name": "Papua",
-      "description": "Dark skin, curly hair, Melanesian features.",
+      "description": "Indigenous Papuans, with dark skin, tightly curled hair, and strong facial features. Distinct from other Indonesian groups.",
       "skin_tone": "dark",
-      "hair": "black, curly"
+      "hair": "black, tightly curled"
     },
     {
-      "name": "Sulawesi North",
-      "description": "Light to medium skin, straight black hair, Minahasan and other North Sulawesi features.",
-      "skin_tone": "light to medium",
-      "hair": "black, straight"
-    },
-    {
-      "name": "Sulawesi South",
-      "description": "Medium to dark skin, wavy or curly black hair, Bugis and Makassarese features.",
-      "skin_tone": "medium to dark",
-      "hair": "black, wavy or curly"
+      "name": "North Sulawesi",
+      "description": "People from North Sulawesi, including Minahasa and Manado, often have lighter skin, straight or wavy hair, and a mix of Austronesian and European features due to historical influences.",
+      "skin_tone": "light",
+      "hair": "black or brown, straight or wavy"
     }
   ]
 }

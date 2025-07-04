@@ -19,6 +19,15 @@
       "region": ["Nationwide"],
       "gender": ["male", "female"],
       "occasion": ["daily wear", "wedding", "festival"]
+    },
+    {
+      "name": "Christian Lace Gloves",
+      "type": "accessory",
+      "description": "Delicate lace gloves worn by Christian brides during weddings, sometimes extending to the wrist or hand.",
+      "material": ["lace", "cotton"],
+      "region": ["South India", "Kerala", "Goa"],
+      "gender": ["female"],
+      "occasion": ["wedding"]
     }
   ]
 }

@@ -1,27 +1,38 @@
 {
-  "country": "in",
   "regions": [
     {
-      "name": "South India",
-      "description": "Darker skin, wavy/curly hair, prominent features, traditional Dravidian appearance.",
-      "skin_tone": "dark to medium brown",
-      "hair": "black, wavy or curly"
-    },
-    {
       "name": "North India",
-      "description": "Fair to medium skin, straight or wavy hair, Indo-Aryan features.",
-      "skin_tone": "fair to medium",
-      "hair": "black or dark brown, straight or wavy"
+      "description": "People from North India, including states like Punjab, Uttar Pradesh, Haryana, and Delhi. Features often include fair to wheatish skin, dark hair, and sharp facial features.",
+      "skin_tone": "fair to wheatish",
+      "hair": "black, straight or wavy"
     },
     {
-      "name": "North East India",
-      "description": "East Asian features, fair to medium skin, straight black hair.",
-      "skin_tone": "fair to medium",
-      "hair": "black, straight"
+      "name": "South India",
+      "description": "People from South India, including Tamil Nadu, Kerala, Karnataka, and Andhra Pradesh. Features often include medium to dark skin, thick black hair, and rounded facial features.",
+      "skin_tone": "medium to dark",
+      "hair": "black, thick, wavy or curly"
+    },
+    {
+      "name": "East India",
+      "description": "People from Bengal, Odisha, Assam, and other eastern states. Features include wheatish to medium skin, dark hair, and soft facial features.",
+      "skin_tone": "wheatish to medium",
+      "hair": "black, straight or wavy"
     },
     {
       "name": "West India",
-      "description": "Medium to dark skin, wavy hair, diverse features.",
+      "description": "People from Gujarat, Maharashtra, Rajasthan, and Goa. Features include fair to medium skin, dark hair, and diverse facial features.",
+      "skin_tone": "fair to medium",
+      "hair": "black, straight or wavy"
+    },
+    {
+      "name": "North East India",
+      "description": "People from the North Eastern states such as Nagaland, Manipur, Mizoram, and Arunachal Pradesh. Features include light to medium skin, straight black hair, and East Asian facial features.",
+      "skin_tone": "light to medium",
+      "hair": "black, straight"
+    },
+    {
+      "name": "Central India",
+      "description": "People from Madhya Pradesh and Chhattisgarh. Features include medium to dark skin, dark hair, and a mix of North and South Indian features.",
       "skin_tone": "medium to dark",
       "hair": "black, wavy"
     }

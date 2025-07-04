@@ -2,5 +2,6 @@
 # Add more as needed for AI/image generation
 jinja2
 flake8
+transformers
 # If you use any LLM or API nodes, add their dependencies here
 # Example: requests

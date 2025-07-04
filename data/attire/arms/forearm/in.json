@@ -28,6 +28,78 @@
       "region": ["Rajasthan"],
       "gender": ["female"],
       "occasion": ["wedding", "festival"]
+    },
+    {
+      "name": "Kada (Thick Bangle)",
+      "type": "ornament",
+      "description": "A thick, usually metallic bangle worn on the forearm, common among men and women, especially in Punjab and Sikh culture.",
+      "material": ["steel", "silver", "gold"],
+      "region": ["Punjab", "Nationwide"],
+      "gender": ["male", "female"],
+      "occasion": ["daily wear", "religious"]
+    },
+    {
+      "name": "Vanki (Armlet)",
+      "type": "jewelry",
+      "description": "A traditional South Indian armlet, often V-shaped and ornate, worn by brides and classical dancers.",
+      "material": ["gold", "gemstones"],
+      "region": ["South India"],
+      "gender": ["female"],
+      "occasion": ["wedding", "classical dance"]
+    },
+    {
+      "name": "Tattoo (Traditional)",
+      "type": "body art",
+      "description": "Traditional tattoos, such as Godna, found among tribal communities in Central and Eastern India, often on the forearms.",
+      "material": ["ink"],
+      "region": ["Central India", "Eastern India"],
+      "gender": ["female", "male"],
+      "occasion": ["cultural", "personal adornment"]
+    },
+    {
+      "name": "Khanjar Embroidered Cuffs",
+      "type": "clothing accessory",
+      "description": "Traditional Kashmiri cuffs with intricate Khanjar embroidery, often seen on pheran sleeves.",
+      "material": ["wool", "silk", "thread"],
+      "region": ["Kashmir"],
+      "gender": ["male", "female"],
+      "occasion": ["winter", "festival", "wedding"]
+    },
+    {
+      "name": "Gara Embroidered Sleeves",
+      "type": "clothing accessory",
+      "description": "Parsee Gara embroidery on sleeve cuffs, featuring floral and bird motifs, worn during special occasions.",
+      "material": ["silk", "cotton", "thread"],
+      "region": ["Western India", "Mumbai"],
+      "gender": ["female"],
+      "occasion": ["wedding", "festival"]
+    },
+    {
+      "name": "Zardozi Embroidered Cuffs",
+      "type": "clothing accessory",
+      "description": "Richly decorated cuffs with gold and silver Zardozi embroidery, popular in Mughal and Muslim wedding attire.",
+      "material": ["gold thread", "silver thread", "velvet"],
+      "region": ["North India", "Lucknow", "Delhi"],
+      "gender": ["female", "male"],
+      "occasion": ["wedding", "festival"]
+    },
+    {
+      "name": "North East Tribal Beaded Arm Band",
+      "type": "ornament",
+      "description": "Colorful beaded arm bands worn by various North Eastern tribes as part of traditional dress.",
+      "material": ["beads", "thread"],
+      "region": ["North East India"],
+      "gender": ["male", "female"],
+      "occasion": ["festival", "cultural event"]
+    },
+    {
+      "name": "Gond Tribal Tattoo Patterns",
+      "type": "body art",
+      "description": "Distinctive tattoo patterns found among Gond and Santhal tribal communities, often on the forearms.",
+      "material": ["ink"],
+      "region": ["Central India", "Eastern India"],
+      "gender": ["male", "female"],
+      "occasion": ["cultural", "personal adornment"]
     }
   ]
 }
