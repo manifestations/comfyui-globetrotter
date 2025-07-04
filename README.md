@@ -10,6 +10,10 @@ A collection of custom ComfyUI nodes and utilities for generating AI image promp
 - **Extensible JSON Database**: Add new countries, body parts, or attire/appearance options by simply updating or adding JSON files.
 - **Robust JSON Loading**: Only valid JSON files with a `body_part` entry are used for dropdown inputs.
 - **Utility Nodes**: Includes text combiner and LLM prompt nodes for advanced workflows.
+- **Expanded multicultural and regional attire/appearance libraries for India and Indonesia**, including Christian, Parsee, Muslim, tribal, North East, Kashmiri, Sulawesi, Bali, Java, and more.
+- **Pose Support:** Country-specific pose dropdowns (e.g., for Indonesia).
+- **Attire Descriptions:** Prompts now include both attire name and a short description.
+- **Experimental LLM-based Prompt Rewriting:** Optionally rewrite prompts using a local Hugging Face `distilgpt2` model (toggle in node UI). Includes repetition filtering and output length control.
 
 ## Directory Structure
 ```
@@ -95,10 +99,28 @@ requirements.txt       # Python dependencies
 - **Text Combiner Node**: Combines multiple text inputs into a single string.
 - **LLM Prompt Node**: Generates prompts using a language model with additional dropdown options (e.g., camera settings).
 
+### Experimental Features
+
+- **LLM-based Prompt Rewriting:**  
+  Each attire node includes an `experimental_llm_rewrite` toggle. When enabled, the generated prompt is rewritten using a local Hugging Face `distilgpt2` model (requires `transformers` in `requirements.txt`).  
+  - Output is filtered to reduce repetition and capped in length.
+  - If the model or dependencies are missing, the feature is silently skipped.
+  - This is an experimental feature and may produce variable results.
+
+### Windows Launch and Packaging
+
+- A `launch.bat` file is provided for easy launching with venv activation.
+- Instructions for creating a Windows shortcut and pinning to the taskbar are included in the repository.
+- The project is ready for GitHub release and versioning.
+
 ## Contributing
 - Follow the existing structure and naming conventions.
 - Add tests for new utilities or nodes in the `tests/` directory.
 - Ensure JSON files are valid and include the required fields.
 
-## License
-MIT
+## Requirements
+- All required dependencies (including `transformers` and `pyyaml`) are listed in `requirements.txt`.  
+  To use the LLM-based prompt rewriting, ensure you have installed all dependencies:
+  ```sh
+  pip install -r requirements.txt
+  ```
