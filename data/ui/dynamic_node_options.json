@@ -1,0 +1,41 @@
+
+{
+    "age": [
+        "young adult",
+        "adult",
+        "teenager", 
+        "middle aged",
+        "elderly",
+        "young",
+        "child",
+        "unspecified"
+    ],
+    "gender": ["Female", "Male", "Non-binary", "Unspecified"],
+    "emotion": {
+        "prioritized": ["confident", "serene", "elegant", "sophisticated", "graceful", "contemplative", "determined", "gentle", "poised", "refined"],
+        "default": "confident"
+    },
+    "detail_level": {
+        "options": ["masterpiece", "cinematic", "photorealistic", "artistic", "detailed", "premium"],
+        "default": "masterpiece"
+    },
+    "composition": {
+        "options": ["rule of thirds", "portrait", "close-up", "full body", "centered", "wide shot", "environmental"],
+        "default": "rule of thirds"
+    },
+    "prompt_optimization": {
+        "options": ["premium", "artistic", "professional", "creative", "technical"],
+        "default": "premium"
+    },
+    "randomization": {
+        "options": ["off", "subtle", "balanced", "creative"],
+        "default": "balanced",
+        "description": "Controls creative variation: off=consistent results, subtle=minimal variation, balanced=optimal creativity, creative=maximum artistic freedom"
+    },
+    "setting": {
+        "prioritized": ["elegant garden", "serene lakeside", "sophisticated urban setting", "refined interior", "peaceful courtyard"]
+    },
+    "atmosphere": {
+        "prioritized": ["golden hour", "soft natural light", "warm ambient light", "elegant lighting", "sophisticated atmosphere"]
+    }
+}

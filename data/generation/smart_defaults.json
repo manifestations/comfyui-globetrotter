@@ -1,0 +1,31 @@
+
+{
+    "age_gender_combos": {
+        "infant": {"common_genders": ["Unspecified"], "common_poses": ["sleeping", "lying down", "being held"]},
+        "toddler": {"common_genders": ["Unspecified"], "common_poses": ["playing", "sitting", "walking"]},
+        "young kid": {"common_genders": ["Male", "Female"], "common_poses": ["playing", "running", "laughing"]},
+        "older kid": {"common_genders": ["Male", "Female"], "common_poses": ["studying", "playing sports", "reading"]},
+        "teenager": {"common_genders": ["Male", "Female", "Non-binary"], "common_poses": ["casual standing", "sitting with friends"]},
+        "young adult": {"common_genders": ["Male", "Female", "Non-binary"], "common_poses": ["confident standing", "working", "socializing"]},
+        "adult": {"common_genders": ["Male", "Female", "Non-binary"], "common_poses": ["professional", "family poses", "working"]},
+        "middle aged": {"common_genders": ["Male", "Female", "Non-binary"], "common_poses": ["dignified", "authoritative", "relaxed"]},
+        "elderly": {"common_genders": ["Male", "Female", "Non-binary"], "common_poses": ["wise", "sitting peacefully", "storytelling"]}
+    },
+    "optimal_combinations": {
+        "cinematic": {
+            "compositions": ["rule of thirds", "wide shot", "close-up"],
+            "atmospheres": ["golden hour", "dramatic shadows", "soft natural light"],
+            "emotions": ["contemplative", "determined", "mysterious"]
+        },
+        "artistic": {
+            "compositions": ["rule of thirds", "centered", "portrait"],
+            "atmospheres": ["warm golden light", "studio lighting", "rim lighting"],
+            "emotions": ["serene", "elegant", "confident"]
+        },
+        "photorealistic": {
+            "compositions": ["portrait", "full body", "environmental"],
+            "atmospheres": ["soft natural light", "studio lighting"],
+            "emotions": ["natural", "confident", "joyful"]
+        }
+    }
+}

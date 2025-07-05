@@ -1,0 +1,43 @@
+{
+  "technical_enhancements": {
+    "masterpiece": "premium quality, exceptional detail, professional composition, perfect lighting",
+    "cinematic": "cinematic excellence, professional cinematography, depth of field, sophisticated lighting",
+    "artistic": "artistic mastery, museum-quality composition, exquisite detail, refined aesthetics",
+    "photorealistic": "photorealistic perfection, ultra-high resolution, natural lighting, flawless detail"
+  },
+  "detail_prefixes": {
+    "premium": {
+      "basic": "quality, ",
+      "detailed": "premium quality, exceptional detail, ",
+      "masterpiece": "masterpiece quality, museum-grade excellence, ",
+      "cinematic": "cinematic masterpiece, professional cinematography, ",
+      "artistic": "artistic excellence, fine art mastery, ",
+      "photorealistic": "photorealistic perfection, ultra-high definition, "
+    },
+    "artistic": {
+      "basic": "artistic, ",
+      "detailed": "exquisitely detailed, artistic vision, ",
+      "masterpiece": "artistic masterpiece, creative excellence, ",
+      "cinematic": "cinematic artistry, dramatic composition, ",
+      "artistic": "fine art perfection, artistic mastery, ",
+      "photorealistic": "lifelike artistic realism, stunning detail, "
+    },
+    "professional": {
+      "basic": "professional, ",
+      "detailed": "professionally crafted, high quality, ",
+      "masterpiece": "professional masterpiece, exceptional quality, ",
+      "cinematic": "professional cinematography, studio quality, ",
+      "artistic": "professional artistry, gallery-worthy, ",
+      "photorealistic": "professional photography, commercial quality, "
+    }
+  },
+  "llm_rewrite_settings": {
+    "max_length_map": {
+      "ai_friendly": 60,
+      "creative": 80,
+      "technical": 70,
+      "artistic": 75,
+      "balanced": 65
+    }
+  }
+}

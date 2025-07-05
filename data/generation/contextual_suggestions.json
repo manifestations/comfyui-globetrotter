@@ -1,0 +1,30 @@
+
+{
+    "weather_activity_pairs": {
+        "sunny": ["at a festival", "in a garden", "by the ocean", "outdoor activities", "market scene", "village life"],
+        "rainy": ["indoors", "at home", "traditional market", "contemplative activities", "reading by a window", "cozy cafe"],
+        "misty": ["in mountains", "temple grounds", "mystical activities", "ancient ruins", "dense forest"],
+        "golden hour": ["by the ocean", "in nature", "romantic activities", "cityscape silhouette", "portrait session"],
+        "stormy": ["dramatic poses", "indoor settings", "intense emotions", "looking out at the sea", "castle view"]
+    },
+    "emotion_setting_pairs": {
+        "serene": ["temple grounds", "in nature", "at home", "in a garden", "meditating", "reading"],
+        "joyful": ["at a festival", "with friends", "outdoor activities", "dancing", "celebrating"],
+        "contemplative": ["temple grounds", "in mountains", "reading", "meditation", "looking at a view", "rainy day"],
+        "mysterious": ["misty weather", "dramatic lighting", "ancient settings", "shadowy alley", "moonlit night"],
+        "confident": ["urban street", "professional settings", "leadership poses", "on a stage", "modern city"]
+    },
+    "cultural_context_suggestions": {
+        "festivals": {"atmospheres": ["sunny", "golden hour"], "emotions": ["joyful", "vibrant"], "attire": ["colorful attire", "ceremonial dress"]},
+        "meditation": {"atmospheres": ["dawn", "misty", "serene"], "emotions": ["serene", "contemplative"], "attire": ["simple attire", "monastic robes"]},
+        "traditional dance": {"atmospheres": ["evening", "dramatic lighting", "firelight"], "emotions": ["elegant", "fierce", "passionate"], "attire": ["ceremonial attire", "ornate costume"]},
+        "market scene": {"atmospheres": ["sunny", "bustling"], "emotions": ["lively", "curious"], "attire": ["casual wear", "traditional daily wear"]},
+        "royal court": {"atmospheres": ["opulent", "indoor lighting"], "emotions": ["dignified", "authoritative"], "attire": ["royal garments", "luxurious fabrics"]}
+    },
+    "attire_activity_pairs": {
+        "ceremonial attire": ["at a festival", "traditional dance", "wedding ceremony", "temple grounds"],
+        "simple attire": ["at home", "in a garden", "meditation", "daily chores"],
+        "adventurous gear": ["in mountains", "exploring ruins", "jungle trekking"],
+        "elegant dress": ["royal court", "formal event", "evening celebration"]
+    }
+}

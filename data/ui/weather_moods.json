@@ -1,0 +1,7 @@
+
+{
+    "weather": ["golden hour", "soft daylight", "elegant twilight", "serene dawn", "sophisticated evening", "pristine morning", "ambient overcast", "refined sunset"],
+    "lighting": ["soft natural light", "elegant ambient lighting", "warm golden light", "sophisticated rim lighting", "gentle backlighting", "premium studio lighting", "refined candlelight", "serene moonlight"],
+    "emotions": ["serene", "confident", "elegant", "sophisticated", "graceful", "contemplative", "poised", "refined", "composed", "dignified"],
+    "settings": ["elegant garden", "sophisticated urban setting", "serene lakeside", "refined interior", "peaceful courtyard", "premium location", "artistic studio", "tranquil environment"]
+}

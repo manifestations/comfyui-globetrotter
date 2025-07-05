@@ -1,0 +1,10 @@
+{
+    "color_map": {
+        "fair": ["deep blues", "rich purples", "emerald greens"],
+        "olive": ["warm oranges", "deep reds", "golden yellows"],
+        "tan": ["cool blues", "soft greens", "warm browns"],
+        "brown": ["vibrant oranges", "deep purples", "bright whites"],
+        "dark": ["bright yellows", "electric blues", "pure whites"]
+    },
+    "default_colors": ["earth tones", "natural colors"]
+}

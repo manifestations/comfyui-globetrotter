@@ -1,126 +1,415 @@
 # ComfyUI Globetrotter Nodes
 
-A collection of custom ComfyUI nodes and utilities for generating AI image prompts representing the diverse attire, cultures, regions, and appearances of the world. This project is designed for easy extension to new countries, cultures, and body parts, using a modular JSON-based data structure and dynamic node generation.
+A comprehensive collection of custom ComfyUI nodes for generating culturally diverse AI image prompts. This project features a fully data-driven architecture with gender-aware attire filtering, comprehensive body part coverage, and intelligent prompt generation optimized for AI image models.
 
-## Features
-- **Dynamic Node Generation**: Automatically creates a node for each country based on its JSON configuration.
-- **Country-Specific Attire Options**: Each node provides dropdowns for attire options specific to the country and body part, as defined in the JSON files.
-- **Regional Appearance Support**: Nodes include a region dropdown (from `appearance/<country>.json`) and always add region-specific skin tone and hair to the prompt.
-- **Default Hair Style Dropdown**: Every node includes a hair style dropdown (from `attire/head/hair/generic.json`), with fallback to the region's default hair if not selected.
-- **Extensible JSON Database**: Add new countries, body parts, or attire/appearance options by simply updating or adding JSON files.
-- **Robust JSON Loading**: Only valid JSON files with a `body_part` entry are used for dropdown inputs.
-- **Utility Nodes**: Includes text combiner and LLM prompt nodes for advanced workflows.
-- **Expanded multicultural and regional attire/appearance libraries for India and Indonesia**, including Christian, Parsee, Muslim, tribal, North East, Kashmiri, Sulawesi, Bali, Java, and more.
-- **Pose Support:** Country-specific pose dropdowns (e.g., for Indonesia).
-- **Attire Descriptions:** Prompts now include both attire name and a short description.
-- **Experimental LLM-based Prompt Rewriting:** Optionally rewrite prompts using a local Hugging Face `distilgpt2` model (toggle in node UI). Includes repetition filtering and output length control.
+## ✨ Key Features
 
-## Directory Structure
+### 🌍 **Cultural Diversity & Authenticity**
+- **Multi-Country Support**: Dynamic nodes for countries with extensive cultural data
+- **Regional Variations**: Detailed appearance options for different regions within countries
+- **Cultural Context**: Activities, festivals, landmarks, and traditional colors
+- **Authentic Attire**: Culturally accurate clothing options with detailed descriptions
+
+### 👕 **Advanced Attire System**
+- **Gender-Aware Filtering**: Clothing options automatically filter based on selected gender
+- **Comprehensive Body Coverage**: Support for 18+ body parts including:
+  - **Arms**: Forearm, Hands, Palms, Upper_Arm, Wrists
+  - **Head**: Head, Chin, Ears, Forehead, Hair, Nose
+  - **Legs**: Legs, Ankles, Feet
+  - **Upper_Body**: Upper_Body, Chest, Shoulders
+  - **Waist**: Waist area clothing
+- **Rich Descriptions**: Each attire item includes detailed descriptions for AI prompt generation
+- **Smart Randomization**: Intelligent random selection with contextual awareness
+
+### 🤖 **AI-Optimized Prompt Generation**
+- **Multiple Prompt Styles**: AI-friendly, creative, artistic, technical, and balanced modes
+- **Smart Defaults**: Intelligent parameter combinations that work well together
+- **Contextual Suggestions**: Weather-activity and emotion-setting pairings
+- **Technical Enhancements**: Quality keywords, composition rules, and lighting optimization
+- **LLM Integration**: Optional prompt rewriting with local language models
+
+### 🎛️ **Intuitive Controls**
+- **Simplified UI**: Clear, logical control grouping with helpful tooltips
+- **Universal Options**: Every dropdown includes "none" and "random" options
+- **Smart Randomization**: Four levels of randomization (off, light, moderate, full)
+- **Reproducible Results**: Seed-based consistency for repeatable outputs
+- **Gender-Aware Interface**: Attire options automatically filtered by gender selection
+
+### 📊 **Data-Driven Architecture**
+- **Fully Modular**: All data stored in organized JSON files
+- **Zero Hardcoding**: No attire, cultural, or prompt data in Python code
+- **Easy Extension**: Add new countries, body parts, or attire by updating JSON files
+- **Robust Loading**: Error-tolerant JSON loading with graceful fallbacks
+
+## 📁 Project Structure
+
 ```
-attire/                # JSON attire database (organized by body part and country)
-appearance/            # JSON appearance/region database (by country)
-globetrotter_nodes/    # All custom node and utility code
-  dynamic_nodes.py     # Main dynamic node generation logic
-  ollama_llm_node.py   # LLM-based prompt generation node
-  text_combiner_node.py # Utility node for combining text inputs
-data/                  # Art styles, cameras, lighting, etc.
-tests/                 # Unit tests
-README.md              # Project documentation
-requirements.txt       # Python dependencies
+comfyui-globetrotter/
+├── data/                          # Organized data files
+│   ├── attire/                    # Clothing and accessories by body part
+│   │   ├── arms/                  # Forearm, hands, palms, upper_arm, wrists
+│   │   ├── head/                  # Head, chin, ears, forehead, hair, nose
+│   │   ├── legs/                  # Legs, ankles, feet
+│   │   ├── upper_body/            # Upper_body, chest, shoulders
+│   │   └── waist/                 # Waist area clothing
+│   ├── appearance/                # Regional appearance data
+│   ├── poses/                     # Country-specific poses
+│   ├── cultural/                  # Cultural activities, festivals, landmarks
+│   ├── config/                    # System configuration
+│   │   ├── gender_config.json     # Gender mapping and filtering rules
+│   │   └── prompt_config.json     # Prompt generation settings
+│   ├── generation/                # AI prompt optimization
+│   │   ├── smart_defaults.json    # Intelligent default combinations
+│   │   ├── contextual_suggestions.json  # Context-aware suggestions
+│   │   └── ai_prompt_structure.json     # AI-optimized prompt structure
+│   ├── ui/                        # User interface data
+│   │   ├── dynamic_node_options.json    # UI dropdown options
+│   │   ├── weather_moods.json           # Atmospheric conditions
+│   │   └── complementary_colors.json    # Color palette suggestions
+│   ├── styles/                    # Artistic and photographic styles
+│   └── prompts/                   # LLM prompt templates
+├── globetrotter_nodes/            # Core Python modules
+│   ├── dynamic_nodes.py           # Main dynamic node generation
+│   ├── ollama_llm_node.py         # LLM integration node
+│   └── text_combiner_node.py      # Text utility node
+└── requirements.txt               # Python dependencies
 ```
 
-## Installation
-1. Clone this repository into your ComfyUI `custom_nodes` directory:
-   ```sh
-   git clone <repository-url> <ComfyUI-path>/custom_nodes/comfyui-globetrotter
+## 🚀 Installation
+
+1. **Clone the repository** into your ComfyUI `custom_nodes` directory:
+   ```bash
+   cd /path/to/ComfyUI/custom_nodes
+   git clone <repository-url> comfyui-globetrotter
    ```
-2. (Optional) Install dependencies:
-   ```sh
+
+2. **Install dependencies** (optional but recommended for full features):
+   ```bash
+   cd comfyui-globetrotter
    pip install -r requirements.txt
    ```
-3. Restart ComfyUI to load the new nodes.
 
-## Usage
-### Dynamic Attire & Appearance Nodes
-- Each country-specific node is generated based on the JSON files in the `attire/` and `appearance/` directories.
-- Dropdown inputs are created for:
-  - **Region**: Populated from `appearance/<country>.json` (e.g., Java, Papua, Sulawesi North, etc.).
-  - **Hair Style**: Populated from `attire/head/hair/generic.json` (e.g., "bun", "ponytail", etc.).
-  - **Body Parts**: As defined in the JSON files (e.g., "Blangkon", "Siger").
-  - "none" and "random" are default options for attire and hair.
-- The node generates a text prompt based on the selected options, which can be used in AI workflows.
-- If no hair style is selected, the region's default hair is used. The region's skin tone and hair are always included in the prompt.
+3. **Restart ComfyUI** to load the new nodes.
 
-#### Example Appearance JSON (appearance/id.json):
+## 💡 Usage
+
+### Dynamic Country Nodes
+
+Each country automatically gets its own node (e.g., "India Attire") with comprehensive options:
+
+#### **Core Parameters**
+- **Age**: Young adult, Adult
+- **Gender**: Female, Male (with automatic attire filtering)
+- **Region**: Country-specific regions (e.g., Java, Punjab, Rajasthan)
+- **Hair Style**: Generic options + region-specific defaults
+- **Emotion**: Confident, Serene, Joyful, Contemplative, etc.
+
+#### **Attire Selection** (Gender-Filtered)
+Individual dropdowns for each body part with culturally appropriate options:
+- **Arms**: Forearm decorations, hand accessories, wrist jewelry
+- **Head**: Headwear, face decorations, ear accessories
+- **Upper Body**: Traditional tops, chest accessories, shoulder pieces
+- **Lower Body**: Traditional bottoms, leg wear, foot attire
+- **Waist**: Belts, sashes, waist decorations
+
+#### **Cultural Context**
+- **Poses**: Traditional and cultural poses
+- **Cultural Elements**: Festivals, activities, traditions
+- **Settings**: Markets, temples, landmarks, urban areas
+- **Atmosphere**: Weather, lighting, mood combinations
+
+#### **Advanced Controls**
+- **Detail Level**: Basic, Detailed, Cinematic, Artistic, Photorealistic
+- **Composition**: Rule of thirds, Centered, Close-up, Wide shot, etc.
+- **Prompt Optimization**: AI-friendly, Creative, Technical, Artistic, Balanced
+- **Randomization**: Off, Light, Moderate, Full (with smart contextual choices)
+- **Custom Elements**: LoRA triggers, custom prompts
+- **Experimental**: AI-powered prompt rewriting (requires transformers library)
+
+### Example Attire JSON Structure
+
+#### `data/attire/upper_body/in.json`
 ```json
 {
-  "country": "id",
-  "regions": [
+  "country": "IN",
+  "body_part": "upper_body",
+  "attires": [
     {
-      "name": "Java",
-      "description": "Medium to dark skin, straight or wavy black hair, Javanese features.",
-      "skin_tone": "medium to dark",
-      "hair": "black, straight or wavy"
+      "name": "Saree Blouse",
+      "type": "clothing",
+      "description": "A fitted upper garment worn under a saree, often short-sleeved or sleeveless, and tailored to match the saree.",
+      "material": ["cotton", "silk", "synthetic"],
+      "region": ["Nationwide"],
+      "gender": ["female"],
+      "occasion": ["daily wear", "wedding", "festival"]
     },
     {
-      "name": "Sulawesi North",
-      "description": "Light to medium skin, straight black hair, Minahasan and other North Sulawesi features.",
-      "skin_tone": "light to medium",
-      "hair": "black, straight"
+      "name": "Kurta",
+      "type": "clothing",
+      "description": "A loose-fitting, long tunic worn by both men and women, often paired with churidar or jeans.",
+      "material": ["cotton", "silk", "linen"],
+      "region": ["Nationwide"],
+      "gender": ["male", "female", "unisex"],
+      "occasion": ["daily wear", "casual", "formal"]
     }
-    // ... more regions ...
   ]
 }
 ```
 
-#### Example Hair Styles JSON (attire/head/hair/generic.json):
+#### `data/appearance/in.json`
 ```json
-[
-  "long braid",
-  "bun",
-  "ponytail",
-  "buzz cut",
-  "random"
-]
+{
+  "country": "IN",
+  "regions": [
+    {
+      "name": "Punjab",
+      "description": "People from Punjab. Features include wheat-colored to medium brown skin and strong facial structure.",
+      "skin_tone": "wheat-colored to medium brown",
+      "hair": "black, thick and wavy"
+    },
+    {
+      "name": "South India",
+      "description": "People from Tamil Nadu, Kerala, Karnataka, and Andhra Pradesh. Features include dark to very dark skin.",
+      "skin_tone": "dark to very dark brown",
+      "hair": "black, thick and curly"
+    }
+  ]
+}
 ```
 
-### Adding New Countries, Attire, or Appearance
-1. Create a new JSON file in the appropriate directory under `attire/` or `appearance/`.
-2. For attire, include:
-   - `country`: The country code (e.g., "id" for Indonesia).
-   - `body_part`: The body part this attire applies to (e.g., "head").
-   - `attires`: A list of attire objects, each with at least a `name` field.
-3. For appearance, include:
-   - `country`: The country code.
-   - `regions`: A list of region objects, each with `name`, `description`, `skin_tone`, and `hair` fields.
-4. Restart ComfyUI to load the new node.
+### Gender-Aware Attire Filtering
+
+The system automatically filters attire options based on the selected gender:
+
+- **Female**: Shows items with `gender: ["female"]` or `gender: ["unisex"]`
+- **Male**: Shows items with `gender: ["male"]` or `gender: ["unisex"]`
+- **Validation**: Inappropriate combinations are automatically skipped during prompt generation
 
 ### Utility Nodes
-- **Text Combiner Node**: Combines multiple text inputs into a single string.
-- **LLM Prompt Node**: Generates prompts using a language model with additional dropdown options (e.g., camera settings).
 
-### Experimental Features
+#### **Text Combiner Node**
+- Combines multiple text inputs into a single formatted string
+- Useful for complex prompt construction workflows
 
-- **LLM-based Prompt Rewriting:**  
-  Each attire node includes an `experimental_llm_rewrite` toggle. When enabled, the generated prompt is rewritten using a local Hugging Face `distilgpt2` model (requires `transformers` in `requirements.txt`).  
-  - Output is filtered to reduce repetition and capped in length.
-  - If the model or dependencies are missing, the feature is silently skipped.
-  - This is an experimental feature and may produce variable results.
+#### **Ollama LLM Node**
+- Advanced prompt enhancement using local Ollama language models
+- Includes artistic styles, camera settings, lighting options
+- Dynamic loading of style configurations from JSON files
 
-### Windows Launch and Packaging
+### Smart Prompt Generation
 
-- A `launch.bat` file is provided for easy launching with venv activation.
-- Instructions for creating a Windows shortcut and pinning to the taskbar are included in the repository.
-- The project is ready for GitHub release and versioning.
+#### **AI-Optimized Output Examples**
 
-## Contributing
-- Follow the existing structure and naming conventions.
-- Add tests for new utilities or nodes in the `tests/` directory.
-- Ensure JSON files are valid and include the required fields.
+**AI-Friendly Mode:**
+```
+Highly detailed, best quality, rule of thirds composition, A young adult female from Punjab, India, with a confident expression, wearing Saree Blouse: A fitted upper garment worn under a saree, often short-sleeved or sleeveless, and Churidar: Traditional fitted trousers, atmosphere: golden hour
+```
 
-## Requirements
-- All required dependencies (including `transformers` and `pyyaml`) are listed in `requirements.txt`.  
-  To use the LLM-based prompt rewriting, ensure you have installed all dependencies:
-  ```sh
-  pip install -r requirements.txt
-  ```
+**Creative Mode:**
+```
+Rule of thirds composition, Highly detailed, A young adult female from the Punjab region of India, wearing Saree Blouse: A fitted upper garment worn under a saree and Churidar: Traditional fitted trousers, with a confident expression, color palette: warm earth tones, golden natural colors, atmosphere: golden hour
+```
+
+## 🔧 Adding New Content
+
+### Adding a New Country
+
+1. **Create country entry** in `data/countries.json`:
+   ```json
+   {
+     "name": "Country Name",
+     "code": "cc",
+     "flag": "🇨🇨"
+   }
+   ```
+
+2. **Add appearance data** in `data/appearance/cc.json`:
+   ```json
+   {
+     "country": "cc",
+     "regions": [
+       {
+         "name": "Region Name",
+         "description": "Physical description",
+         "skin_tone": "skin tone description",
+         "hair": "hair description"
+       }
+     ]
+   }
+   ```
+
+3. **Create attire files** in appropriate body part directories:
+   - `data/attire/head/cc.json`
+   - `data/attire/upper_body/cc.json`
+   - `data/attire/legs/cc.json`
+   - etc.
+
+4. **Add cultural context** (optional):
+   - `data/poses/cc.json`
+   - `data/cultural/cc.json`
+
+5. **Restart ComfyUI** to load the new country node.
+
+### Adding New Attire Items
+
+1. **Edit the appropriate JSON file** (e.g., `data/attire/head/in.json`)
+2. **Add new attire object**:
+   ```json
+   {
+     "name": "Attire Name",
+     "type": "clothing",
+     "description": "Detailed description for AI prompts",
+     "material": ["cotton", "silk"],
+     "region": ["Region1", "Region2"],
+     "gender": ["male", "female", "unisex"],
+     "occasion": ["daily wear", "formal", "festival"]
+   }
+   ```
+3. **Restart ComfyUI** to load the new options.
+
+### Extending Body Part Coverage
+
+1. **Create new directory** under `data/attire/` (e.g., `accessories/`)
+2. **Add country-specific JSON files** with the new `body_part` field
+3. **System automatically detects** and includes new body parts in UI
+
+## ⚡ Advanced Features
+
+### Experimental LLM Rewriting
+- **Toggle Option**: Each node includes `experimental_llm_rewrite` 
+- **Local Models**: Uses Hugging Face `distilgpt2` model when available
+- **Smart Filtering**: Automatic repetition detection and removal
+- **Length Control**: Output length limits based on prompt optimization mode
+- **Graceful Fallback**: Silently skips if dependencies are missing
+
+### Intelligent Randomization
+- **Smart Random Mode**: Context-aware random selections
+- **Seed Control**: Fixed, increment, decrement, or system random
+- **Contextual Pairing**: Weather-activity and emotion-setting combinations
+- **Optimal Defaults**: Age-gender combinations that work well together
+
+### Prompt Optimization Modes
+
+| Mode | Purpose | Style |
+|------|---------|-------|
+| **AI-Friendly** | Stable Diffusion, FLUX | Quality keywords first, clear structure |
+| **Creative** | Artistic generation | Narrative flow, artistic language |
+| **Technical** | Professional workflows | Precise technical terms |
+| **Artistic** | Fine art creation | Museum-quality descriptions |
+| **Balanced** | General purpose | Mix of technical and creative |
+
+### Configuration System
+
+#### `data/config/gender_config.json`
+```json
+{
+  "gender_mappings": {
+    "male": ["male", "unisex"],
+    "female": ["female", "unisex"],
+    "non-binary": ["unisex"]
+  }
+}
+```
+
+#### `data/config/prompt_config.json`
+```json
+{
+  "technical_enhancements": {
+    "detailed": "8k resolution, highly detailed",
+    "cinematic": "professional photography, cinematic lighting"
+  },
+  "detail_prefixes": {
+    "ai_friendly": {
+      "detailed": "highly detailed, best quality, "
+    }
+  }
+}
+```
+
+## 🛠️ Technical Details
+
+### Dynamic Node Generation
+- **Factory Pattern**: Nodes created programmatically for each country
+- **Closure-Based**: Input types capture country-specific data
+- **Memory Efficient**: Data loaded once and cached
+- **Error Tolerant**: Graceful handling of missing files
+
+### Gender Validation System
+- **Runtime Filtering**: Attire validated during prompt generation
+- **File Discovery**: Automatic detection of correct attire file paths
+- **Cross-Reference**: Body part mapping across directory structure
+- **Fallback Options**: Safe defaults when validation fails
+
+### Data Loading Architecture
+- **Lazy Loading**: JSON files loaded only when needed
+- **Caching**: Frequent data cached in memory
+- **Error Recovery**: Default values for missing files
+- **Validation**: Schema checking for critical fields
+
+## 📋 Requirements
+
+### Core Dependencies
+```
+torch>=1.9.0              # PyTorch for tensor operations
+torchvision>=0.10.0        # Computer vision utilities
+transformers>=4.0.0        # Hugging Face transformers (for LLM features)
+requests>=2.25.0           # HTTP requests for Ollama API
+```
+
+### Optional Dependencies
+```
+accelerate                 # Faster model loading
+safetensors               # Secure tensor serialization
+```
+
+**Installation:**
+```bash
+pip install -r requirements.txt
+```
+
+### System Requirements
+- **Python**: 3.8 or higher
+- **ComfyUI**: Latest version recommended
+- **Memory**: 4GB+ RAM for LLM features
+- **Storage**: ~50MB for full dataset
+
+## 🤝 Contributing
+
+### Guidelines
+1. **Follow JSON Schema**: Maintain consistent data structure
+2. **Cultural Sensitivity**: Ensure authentic and respectful representation
+3. **Test Additions**: Verify new content works across gender combinations
+4. **Documentation**: Update relevant documentation for new features
+
+### Code Style
+- **Python**: Follow PEP 8 conventions
+- **JSON**: Use 2-space indentation
+- **Comments**: Document complex logic and cultural context
+
+### Pull Request Process
+1. Fork the repository
+2. Create feature branch (`git checkout -b feature/new-country`)
+3. Add your changes with appropriate tests
+4. Update documentation
+5. Submit pull request with detailed description
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 🙏 Acknowledgments
+
+- **Cultural Consultants**: For authentic attire and cultural information
+- **ComfyUI Community**: For feedback and feature requests
+- **Open Source Libraries**: Transformers, PyTorch, and other dependencies
+- **Contributors**: Everyone who has helped expand the cultural database
+
+## 📞 Support
+
+- **Issues**: [GitHub Issues](../../issues)
+- **Discussions**: [GitHub Discussions](../../discussions)
+- **Documentation**: This README and inline code comments
+
+---
+
+**Made with ❤️ for the ComfyUI community**

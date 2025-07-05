@@ -1,0 +1,50 @@
+{
+  "activities": [
+    "practicing traditional dance",
+    "making batik art",
+    "playing gamelan music",
+    "weaving ikat textiles",
+    "cooking rendang",
+    "carving wood sculptures",
+    "practicing silat martial arts",
+    "tending rice terraces",
+    "making shadow puppets",
+    "creating traditional crafts",
+    "fishing in traditional boats",
+    "preparing ceremonial offerings"
+  ],
+  "festivals": [
+    "galungan ceremony",
+    "nyepi silent day",
+    "kuningan celebration",
+    "independence day",
+    "eid al-fitr",
+    "chinese new year",
+    "waisak celebration",
+    "sekaten festival",
+    "tabuik ceremony",
+    "cap go meh"
+  ],
+  "landmarks": [
+    "borobudur temple",
+    "bali rice terraces",
+    "jogja sultan palace",
+    "lombok beaches",
+    "komodo island",
+    "bromo volcano",
+    "jakarta skyline",
+    "ubud monkey forest",
+    "toba lake",
+    "prambanan temple"
+  ],
+  "colors": [
+    "batik brown",
+    "tropical green",
+    "sunset orange",
+    "ocean blue",
+    "temple gold",
+    "earth red",
+    "palm leaf green",
+    "coral pink"
+  ]
+}

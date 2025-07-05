@@ -1,0 +1,15 @@
+{
+  "gender_mappings": {
+    "male": ["male", "unisex"],
+    "female": ["female", "unisex"],
+    "non-binary": ["unisex"],
+    "unspecified": ["male", "female", "unisex"]
+  },
+  "gender_synonyms": {
+    "male": ["male", "men", "man", "masculine"],
+    "female": ["female", "women", "woman", "feminine"],
+    "unisex": ["unisex", "both", "neutral", "universal"],
+    "children": ["children", "kids", "child"]
+  },
+  "default_gender_filter": "unisex"
+}

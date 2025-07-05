@@ -1,0 +1,26 @@
+
+{
+    "priority_order": [
+        "subject_description",
+        "appearance_details",
+        "emotional_state",
+        "attire_description",
+        "pose_action",
+        "setting_environment",
+        "lighting_atmosphere",
+        "composition_technical",
+        "style_modifiers",
+        "quality_enhancers"
+    ],
+    "ai_friendly_keywords": {
+        "quality": ["masterpiece", "best quality", "highly detailed", "sharp focus", "professional", "8k", "ultra realistic", "insanely detailed"],
+        "lighting": ["natural lighting", "soft lighting", "dramatic lighting", "golden hour", "studio lighting", "cinematic lighting", "volumetric lighting", "god rays"],
+        "composition": ["rule of thirds", "centered composition", "dynamic angle", "close-up portrait", "dutch angle", "long shot"],
+        "style": ["photorealistic", "hyperrealistic", "artistic", "cinematic", "fine art", "concept art", "digital painting", "fantasy art"]
+    },
+    "negative_prompt_hints": {
+        "general": ["ugly", "tiling", "poorly drawn hands", "poorly drawn feet", "poorly drawn face", "out of frame", "extra limbs", "disfigured", "deformed", "body out of frame", "bad anatomy", "blurry", "watermark", "grainy", "signature", "cut off", "draft"],
+        "portraits": ["deformed iris", "deformed pupils", "semi-realistic", "cgi", "3d", "render", "sketch", "cartoon", "drawing", "anime"],
+        "landscapes": ["unnatural colors", "blurry background", "flat lighting"]
+    }
+}

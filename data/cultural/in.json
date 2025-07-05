@@ -1,0 +1,50 @@
+{
+  "activities": [
+    "practicing yoga",
+    "meditating",
+    "dancing classical bharatanatyam",
+    "playing tabla",
+    "cooking traditional curry",
+    "weaving textiles",
+    "creating rangoli art",
+    "celebrating holi festival",
+    "performing prayer rituals",
+    "reading ancient scriptures",
+    "practicing ayurveda",
+    "tending spice gardens"
+  ],
+  "festivals": [
+    "diwali celebration",
+    "holi festival",
+    "dussehra ceremony",
+    "karva chauth",
+    "ganesh chaturthi",
+    "navratri dancing",
+    "eid celebration",
+    "durga puja",
+    "onam festival",
+    "baisakhi harvest"
+  ],
+  "landmarks": [
+    "taj mahal backdrop",
+    "kerala backwaters",
+    "rajasthani palace",
+    "mumbai street market",
+    "himalayan foothills",
+    "goa beaches",
+    "delhi red fort",
+    "varanasi ghats",
+    "jaipur city palace",
+    "agra fort"
+  ],
+  "colors": [
+    "saffron orange",
+    "turmeric yellow",
+    "henna brown",
+    "peacock blue",
+    "vermillion red",
+    "lotus pink",
+    "temple gold",
+    "monsoon green"
+  ]
+}
