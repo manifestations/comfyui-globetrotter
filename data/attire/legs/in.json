@@ -65,6 +65,69 @@
       "gender": ["female"],
       "occasion": ["daily wear", "wedding", "festival"],
       "related_parts": ["upper_body", "waist", "legs", "shoulders"]
+    },
+    {
+      "name": "Churidar",
+      "type": "clothing",
+      "description": "A tightly fitting trouser worn by women, often paired with kameez or tunics, known for its gathered look at the ankles.",
+      "material": ["cotton", "silk", "synthetic"],
+      "region": ["North India", "Nationwide"],
+      "gender": ["female"],
+      "occasion": ["daily wear", "festival"]
+    },
+    {
+      "name": "Salwar",
+      "type": "clothing",
+      "description": "A loose, pleated trouser that tapers at the ankle, commonly worn with kameez and dupatta by women across India.",
+      "material": ["cotton", "silk", "synthetic"],
+      "region": ["Punjab", "North India", "Nationwide"],
+      "gender": ["female"],
+      "occasion": ["daily wear", "festival"]
+    },
+    {
+      "name": "Palazzo Pants",
+      "type": "clothing",
+      "description": "Wide-legged, flowing trousers popular among modern Indian women, often paired with kurtas or crop tops.",
+      "material": ["cotton", "synthetic", "linen"],
+      "region": ["Nationwide"],
+      "gender": ["female"],
+      "occasion": ["daily wear", "party", "festival"]
+    },
+    {
+      "name": "Sharara",
+      "type": "clothing",
+      "description": "A flared, wide-legged pant, usually worn with a short kurti and dupatta, popular for festive and wedding occasions.",
+      "material": ["silk", "georgette", "net"],
+      "region": ["North India", "Nationwide"],
+      "gender": ["female"],
+      "occasion": ["wedding", "festival"]
+    },
+    {
+      "name": "Patiala Salwar",
+      "type": "clothing",
+      "description": "A voluminous, pleated trouser from Punjab, known for its comfort and style, usually paired with a short kameez.",
+      "material": ["cotton", "synthetic"],
+      "region": ["Punjab", "North India"],
+      "gender": ["female"],
+      "occasion": ["daily wear", "festival"]
+    },
+    {
+      "name": "Jeggings",
+      "type": "clothing",
+      "description": "A modern, stretchable legging that looks like jeans, popular among young women for casual and fusion wear.",
+      "material": ["cotton", "synthetic", "denim"],
+      "region": ["Nationwide"],
+      "gender": ["female"],
+      "occasion": ["daily wear", "party"]
+    },
+    {
+      "name": "Harem Pants",
+      "type": "clothing",
+      "description": "Loose, baggy pants with a dropped crotch, inspired by Middle Eastern styles and popular in Indian fusion fashion.",
+      "material": ["cotton", "synthetic"],
+      "region": ["Nationwide"],
+      "gender": ["female"],
+      "occasion": ["daily wear", "party", "festival"]
     }
   ]
 }

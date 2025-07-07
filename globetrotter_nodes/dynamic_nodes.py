@@ -280,28 +280,31 @@ def create_attire_node(country: dict) -> tuple[str, type]:
 
     def create_input_types():
         """Create input types with access to country_code from closure."""
-        def ensure_none_random(options_list):
-            """Ensure every dropdown has 'none' and 'random' options at the start, and Title Case for display."""
+        def ensure_none_random(options_list, default_value=None):
+            """Ensure every dropdown has 'none' and 'random' options at the start, and Title Case for display.
+            Also ensures the default value is present in the list."""
             if not options_list:
-                return ["none", "random"]
-            
+                base = ["none", "random"]
+                if default_value and default_value not in base:
+                    base.append(default_value)
+                return base
             # Convert to list if it's a set or other iterable
             if not isinstance(options_list, list):
                 options_list = list(options_list)
-            
             # Remove existing 'none' and 'random' entries (case-insensitive)
             filtered_options = [opt for opt in options_list if opt.lower() not in ['none', 'random']]
-            
             # Title Case for display, except 'none' and 'random'
             filtered_options = [opt if opt.lower() in ['none', 'random'] else opt.title() for opt in filtered_options]
-            
+            # Ensure default value is present
+            if default_value and default_value not in filtered_options and default_value not in ["none", "random"]:
+                filtered_options.append(default_value)
             return ["none", "random"] + filtered_options
         
         # Smart ordering for better UX and AI generation
         required = {
             # Primary Subject Definition (most important for AI)
-            "age": (ensure_none_random(dynamic_options.get("age", ["young adult", "adult"])), {"default": "young adult"}),
-            "gender": (ensure_none_random(dynamic_options.get("gender", ["Female", "Male"])), {"default": "Female"}),
+            "age": (ensure_none_random(dynamic_options.get("age", ["young adult", "adult"]), default_value="young adult"), {"default": "young adult"}),
+            "gender": (ensure_none_random(dynamic_options.get("gender", ["Female", "Male"]), default_value="Female"), {"default": "Female"}),
             "region": (ensure_none_random(region_names if region_names else ["Unspecified"]), {"default": "none"}),
             
             # Physical Characteristics  

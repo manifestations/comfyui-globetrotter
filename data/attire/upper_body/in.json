@@ -93,6 +93,96 @@
       "region": ["Meghalaya", "Northeast India"],
       "gender": ["female"],
       "occasion": ["festival", "daily wear"]
+    },
+    {
+      "name": "Punjabi Patiala Suit",
+      "type": "clothing",
+      "description": "A traditional Punjabi outfit consisting of a long tunic (kameez) paired with baggy trousers (patiala) and a dupatta.",
+      "material": ["cotton", "silk", "synthetic"],
+      "region": ["Punjab", "North India"],
+      "gender": ["male"],
+      "occasion": ["festival", "daily wear"]
+    },
+    {
+      "name": "Bengali Panjabi",
+      "type": "clothing",
+      "description": "A traditional Bengali outfit for men, typically a long tunic worn with pajama or dhoti, especially during festivals and ceremonies.",
+      "material": ["cotton", "silk"],
+      "region": ["West Bengal", "Nationwide"],
+      "gender": ["male"],
+      "occasion": ["festival", "ceremony", "daily wear"]
+    },
+    {
+      "name": "Anarkali Suit",
+      "type": "clothing",
+      "description": "A long, frock-style top paired with slim bottoms, popular for its elegant, flared silhouette among Indian women.",
+      "material": ["cotton", "silk", "georgette", "chiffon"],
+      "region": ["North India", "Nationwide"],
+      "gender": ["female"],
+      "occasion": ["wedding", "festival", "party"]
+    },
+    {
+      "name": "Lehenga Choli",
+      "type": "clothing",
+      "description": "A traditional three-piece outfit consisting of a long skirt (lehenga), a fitted blouse (choli), and a dupatta, worn at weddings and festivals.",
+      "material": ["silk", "cotton", "velvet", "net"],
+      "region": ["Rajasthan", "Gujarat", "Nationwide"],
+      "gender": ["female"],
+      "occasion": ["wedding", "festival"]
+    },
+    {
+      "name": "Salwar Kameez",
+      "type": "clothing",
+      "description": "A comfortable and versatile outfit with a tunic top (kameez) and loose-fitting trousers (salwar), often paired with a dupatta.",
+      "material": ["cotton", "silk", "synthetic"],
+      "region": ["Punjab", "North India", "Nationwide"],
+      "gender": ["female"],
+      "occasion": ["daily wear", "festival"]
+    },
+    {
+      "name": "Dupatta",
+      "type": "clothing",
+      "description": "A long scarf or shawl worn with various Indian outfits, draped over the shoulders or head for modesty and style.",
+      "material": ["cotton", "silk", "chiffon", "georgette"],
+      "region": ["Nationwide"],
+      "gender": ["female"],
+      "occasion": ["daily wear", "festival", "wedding"]
+    },
+    {
+      "name": "Banarasi Saree",
+      "type": "clothing",
+      "description": "A luxurious silk saree from Varanasi, known for its rich brocade work and intricate gold or silver zari designs.",
+      "material": ["silk"],
+      "region": ["Uttar Pradesh", "Nationwide"],
+      "gender": ["female"],
+      "occasion": ["wedding", "festival"]
+    },
+    {
+      "name": "Kanjeevaram Saree",
+      "type": "clothing",
+      "description": "A traditional South Indian saree made from pure mulberry silk, famous for its vibrant colors and gold borders.",
+      "material": ["silk"],
+      "region": ["Tamil Nadu", "South India"],
+      "gender": ["female"],
+      "occasion": ["wedding", "festival"]
+    },
+    {
+      "name": "Half Saree (Langa Voni)",
+      "type": "clothing",
+      "description": "A three-piece traditional South Indian outfit for young women, consisting of a skirt, blouse, and draped dupatta.",
+      "material": ["silk", "cotton"],
+      "region": ["Andhra Pradesh", "Karnataka", "Tamil Nadu", "South India"],
+      "gender": ["female"],
+      "occasion": ["festival", "coming of age", "wedding"]
+    },
+    {
+      "name": "Crop Top with Skirt",
+      "type": "clothing",
+      "description": "A modern fusion outfit featuring a short blouse (crop top) paired with a long, flowing skirt, popular at parties and weddings.",
+      "material": ["cotton", "silk", "synthetic"],
+      "region": ["Nationwide"],
+      "gender": ["female"],
+      "occasion": ["party", "wedding", "festival"]
     }
   ]
 }
